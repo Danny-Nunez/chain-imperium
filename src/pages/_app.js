@@ -5,14 +5,14 @@ import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/Scroll-to-top";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/globals.css";
-import Homepage1 from "./home/home1-dark";
+
 
 function MyApp({ Component, pageProps }) {
 
   return (
     <>
       <Head>
-        <title>Avo</title>
+        <title>Chain Imperium</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />
