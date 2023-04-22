@@ -1063,12 +1063,17 @@ body {
   position: relative;
   margin: 0 auto 80px; }
   .sec-head h6 {
-    color: #af30f3;
+    /* color: #af30f3; */
     font-weight: 300;
     font-size: 17px;
     text-transform: uppercase;
     letter-spacing: 14px;
-    margin-bottom: 5px; }
+    margin-bottom: 5px; 
+    background: #2534ff;
+    background: linear-gradient(to right, #2534ff 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .sec-head h3 {
     font-size: 80px;
     font-weight: 700;
