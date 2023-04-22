@@ -3464,12 +3464,21 @@ header.simpl {
   .work-carousel .content .cont {
     position: relative; }
     .work-carousel .content .cont h6 {
-      color: #af30f3;
+      /* color: #af30f3; */
       font-size: 12px;
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 2px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px; 
+      background-color: #af30f3;
+    background-image: linear-gradient(45deg, #ff52de, #125ceb);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    }
     .work-carousel .content .cont h4 {
       font-size: 17px; }
     .work-carousel .content .cont .icon {
@@ -3531,12 +3540,21 @@ header.simpl {
   -o-transition: all .4s;
   transition: all .4s; }
   .work-carousel .noraidus .cont h6 {
-    color: #af30f3;
+    /* color: #af30f3; */
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px; 
+    background-color: #af30f3;
+    background-image: linear-gradient(45deg, #ff52de, #125ceb);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
   .work-carousel .noraidus .cont h4 {
     font-size: 17px; }
 
@@ -4446,10 +4464,19 @@ header.simpl {
         font-weight: 500; }
         .blog-pg.single .comments-area .item .info h6 span {
           display: block;
-          color: #af30f3;
+          /* color: #af30f3; */
           font-size: 12px;
           font-weight: 400;
-          margin-top: 5px; }
+          margin-top: 5px; 
+          background-color: #af30f3;
+    background-image: linear-gradient(45deg, #ff52de, #125ceb);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+        }
       .blog-pg.single .comments-area .item .info p {
         line-height: 1.5;
         margin-top: 15px; }
@@ -4862,7 +4889,7 @@ header.simpl {
       margin: 10px auto !important; }
   .navbar .logo {
     margin-left: 15px;
-    width: 115px; }
+    width: 110px; }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
     color: #fff !important; }
@@ -5065,7 +5092,7 @@ header.simpl {
   .topnav .container-fluid {
     padding: 0 30px; }
   .topnav .logo {
-    width: 115px; }
+    width: 90px; }
   .btn-curve {
     padding: 8px 15px; }
     .btn-curve span {
