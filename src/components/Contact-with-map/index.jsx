@@ -115,7 +115,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
                 </Split>
                 <div className="item mb-40">
                   <h5>
-                    <a href="#0">Email@example.com</a>
+                    <a href="#0">admin@chainimperium.com</a>
                   </h5>
                   <h5>+4.930.705.5448</h5>
                 </div>
@@ -163,8 +163,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
         <div className="container">
           <div className="copyrights text-center mt-0">
             <p>
-              © 2022, Avo Template. Made with passion by 
-              <a href="#0">ThemesCamp</a>.
+              © 2023, Chain Imperium.
             </p>
           </div>
         </div>

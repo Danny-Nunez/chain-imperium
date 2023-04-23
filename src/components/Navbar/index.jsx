@@ -99,11 +99,11 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                portfolio
+                products
               </span>
               <div className="dropdown-menu">
-                <Link href="/works/works-dark">
-                  <a className="dropdown-item">Mouse Info</a>
+                <Link href="/products/products-dark">
+                  <a className="dropdown-item">PR Services</a>
                 </Link>
                 <Link href="/works2/works2-dark">
                   <a className="dropdown-item">Masonry 3 Columns</a>

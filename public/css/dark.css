@@ -2021,7 +2021,15 @@ header.simpl {
       transition: opacity .5s,
  visibility .5s; }
     .cta__slider-item .caption .thin {
-      color: #af30f3;
+      /* color: #af30f3; */
+      background-color: #af30f3;
+      background-image: linear-gradient(45deg, #ff52de, #125ceb);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
       font-size: 20px;
       font-weight: 300;
       text-transform: uppercase;
@@ -2092,12 +2100,21 @@ header.simpl {
   .freelancer .cont {
     margin-top: 50px; }
     .freelancer .cont h6 {
-      color: #af30f3;
+      /* color: #af30f3; */
       font-size: 14px;
       font-weight: 300;
       text-transform: uppercase;
       letter-spacing: 5px;
-      margin-bottom: 5px; }
+      margin-bottom: 5px; 
+      background-color: #af30f3;
+      background-image: linear-gradient(45deg, #ff52de, #125ceb);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
     .freelancer .cont h1 {
       font-size: 100px;
       font-weight: 700;
@@ -2370,7 +2387,16 @@ header.simpl {
       font-size: 20px;
       font-weight: 300;
       text-transform: capitalize;
-      color: #af30f3; }
+      /* color: #af30f3;  */
+      background-color: #af30f3;
+      background-image: linear-gradient(45deg, #ff52de, #125ceb);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
   .works-header .capt .bactxt {
     font-size: 30vw;
     font-weight: bold;
@@ -2638,9 +2664,18 @@ header.simpl {
 /* ====================== [ end showcase ] ====================== */
 /* ====================== [ Start Intro ] ====================== */
 .about .content .co-tit {
-  color: #af30f3;
+  /* color: #af30f3; */
   font-weight: 400;
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+  background-color: #af30f3;
+  background-image: linear-gradient(45deg, #ff52de, #125ceb);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
 
 .about .img-mons .img1, .about .img-mons .img2, .about .img-mons .img3 {
   height: 200px;
@@ -2709,9 +2744,18 @@ header.simpl {
     .about .ftbox ul li.space {
       margin: 0 10px; }
     .about .ftbox ul li .icon {
-      color: #af30f3;
+      /* color: #af30f3; */
       font-size: 30px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      background-color: #af30f3;
+      background-image: linear-gradient(45deg, #ff52de, #125ceb);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
     .about .ftbox ul li h6 {
       font-size: 16px;
       font-weight: 400;
@@ -2753,7 +2797,15 @@ header.simpl {
     text-align: center;
     border-radius: 50%;
     background: #fff;
-    color: #af30f3;
+    /* color: #af30f3; */
+    background-color: #af30f3;
+    background-image: linear-gradient(45deg, #ff52de, #125ceb);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
     -webkit-box-shadow: 0px 10px 50px rgba(52, 60, 70, 0.05);
     box-shadow: 0px 10px 50px rgba(52, 60, 70, 0.05); }
     .simpl-intro .img .vid-icon:after {
@@ -2779,7 +2831,15 @@ header.simpl {
   .intro-section .htit span {
     font-size: 17px;
     font-weight: 300;
-    color: #af30f3;
+    /* color: #af30f3; */
+    background-color: #af30f3;
+    background-image: linear-gradient(45deg, #ff52de, #125ceb);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
     margin-right: 5px; }
 
 .intro-section .item h6 {
@@ -2888,9 +2948,18 @@ header.simpl {
         opacity: .8;
         z-index: -1; }
     .services .item-box .icon {
-      color: #af30f3;
+      /* color: #af30f3; */
       font-size: 40px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px; 
+      background-color: #af30f3;
+      background-image: linear-gradient(45deg, #ff52de, #125ceb);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      }
     .services .item-box h6 {
       line-height: 1.8;
       text-transform: capitalize;
@@ -2940,8 +3009,17 @@ header.simpl {
       left: 10px; }
     .services .mas-item .icon {
       font-size: 45px;
-      color: #af30f3;
-      margin-bottom: 30px; }
+      /* color: #af30f3; */
+      margin-bottom: 30px; 
+      background-color: #af30f3;
+      background-image: linear-gradient(45deg, #ff52de, #125ceb);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
     .services .mas-item h6 {
       font-weight: 600;
       font-size: 16px;
@@ -2975,9 +3053,18 @@ header.simpl {
       .services .step-item.xcolor p {
         color: #333; }
     .services .step-item .icon {
-      color: #af30f3;
+      /* color: #af30f3; */
       font-size: 40px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px; 
+      background-color: #af30f3;
+      background-image: linear-gradient(45deg, #ff52de, #125ceb);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
     .services .step-item h6 {
       margin-bottom: 20px; }
   .services .item {
@@ -2994,9 +3081,18 @@ header.simpl {
       .services .item.simpl:hover {
         background: #21242b; }
     .services .item .icon {
-      color: #af30f3;
+      /* color: #af30f3; */
       font-size: 40px;
-      margin-bottom: 40px; }
+      margin-bottom: 40px; 
+      background-color: #af30f3;
+      background-image: linear-gradient(45deg, #ff52de, #125ceb);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
     .services .item h6 {
       margin-bottom: 15px; }
 
@@ -3008,7 +3104,16 @@ header.simpl {
     display: flex; }
     .sipm-feat .item .icon {
       font-size: 30px;
-      color: #af30f3; }
+      /* color: #af30f3;  */
+      background-color: #af30f3;
+      background-image: linear-gradient(45deg, #ff52de, #125ceb);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
     .sipm-feat .item .text {
       padding-left: 20px; }
       .sipm-feat .item .text h6 {
@@ -4052,7 +4157,16 @@ header.simpl {
     opacity: .1; }
   .block-sec .vid-area .vid-icon .vid span {
     font-size: 30px;
-    color: #af30f3; }
+    /* color: #af30f3;  */
+    background-color: #af30f3;
+    background-image: linear-gradient(45deg, #ff52de, #125ceb);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    }
 
 .block-sec .vid-area .cont {
   margin-top: 40px; }

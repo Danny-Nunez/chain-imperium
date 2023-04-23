@@ -30,25 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about/about-dark": [
+    "/products/products-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about/about-dark.js"
-    ],
-    "/contact/contact-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/contact/contact-dark.js"
-    ],
-    "/home/home1-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/home/home1-dark.js"
-    ],
-    "/showcase/showcase-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/showcase/showcase-dark.js"
+      "static/chunks/pages/products/products-dark.js"
     ]
   },
   "ampFirstPages": []
