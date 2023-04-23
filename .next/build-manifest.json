@@ -30,6 +30,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/contact/contact-dark": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contact/contact-dark.js"
+    ],
     "/products/products-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
