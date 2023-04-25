@@ -15,7 +15,7 @@ export async function checkout({lineItems}){
 	await stripe.redirectToCheckout({
 		mode: 'payment',
 		lineItems,
-		successUrl: 'http://localhost:3000/products/products-success/' + '?status=success',
+		successUrl: 'https://chain-imperium.vercel.app/products/products-success/' + '?status=success',
 		cancelUrl: 'https://chain-imperium.vercel.app/products/products-dark/'
 	})
 
