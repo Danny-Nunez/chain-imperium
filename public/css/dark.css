@@ -1379,7 +1379,7 @@ body {
         opacity: 1;
         cursor: pointer; }
   .navbar .logo {
-    width: 115px; }
+    width: 130px; }
 
 .nav-scroll {
   background: #11141b;
@@ -1415,7 +1415,7 @@ body {
   .topnav .container-fluid {
     padding: 0 50px; }
   .topnav .logo {
-    width: 115px; }
+    width: 130px; }
   .topnav .menu-icon {
     margin-left: auto;
     cursor: pointer; }
@@ -4940,7 +4940,7 @@ header.simpl {
     font-weight: 300;
     margin-bottom: 30px; }
   .footer-half .cont .logo {
-    width: 115px;
+    width: 130px;
     margin-bottom: 30px; }
   .footer-half .cont .con-info li {
     margin-top: 10px;
@@ -5070,7 +5070,7 @@ header.simpl {
       margin: 10px auto !important; }
   .navbar .logo {
     margin-left: 15px;
-    width: 110px; }
+    width: 130px; }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
     color: #fff !important; }
@@ -5265,7 +5265,7 @@ header.simpl {
     right: 15px;
     bottom: 15px; }
   .navbar .logo {
-    width: 115px; }
+    width: 130px; }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px; }
   .hamenu .menu-links .main-menu .sub-menu li {
@@ -5273,7 +5273,7 @@ header.simpl {
   .topnav .container-fluid {
     padding: 0 30px; }
   .topnav .logo {
-    width: 90px; }
+    width: 130px; }
   .btn-curve {
     padding: 8px 15px; }
     .btn-curve span {
