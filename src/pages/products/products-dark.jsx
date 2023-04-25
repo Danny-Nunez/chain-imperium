@@ -4,12 +4,13 @@ import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import DarkTheme from "../../layouts/Dark";
 import { checkout } from "../../common/checkout";
-import Link from "next/link";
 
 const Products = () => {
   const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
+
+
   React.useEffect(() => {
     setInterval(() => {
       if (fixedHeader.current) {
@@ -33,6 +34,8 @@ const Products = () => {
       }
     });
   }, []);
+
+  
 
   return (
     <DarkTheme>

@@ -4790,7 +4790,7 @@ header.simpl {
 .prContainer {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: center;
 }
 
 .prServiceCard {
@@ -4804,6 +4804,11 @@ header.simpl {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   min-width: 270px;
+  margin: 10px;
+}
+.prServiceCard:hover {
+  border: rgb(57, 57, 57) solid 0.5px;
+  background: #1a1d26;
 }
 .productImage {
   width: 185px;
