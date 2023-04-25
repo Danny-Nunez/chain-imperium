@@ -43,8 +43,6 @@ const ProductsSuccess = () => {
       });
     }, 2000);
   }, []);
-
-  
   
   return (
     <DarkTheme>
