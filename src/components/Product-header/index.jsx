@@ -25,7 +25,7 @@ const ProductHeader = ({ sliderRef }) => {
               </div>
 
               <div className="bactxt custom-font valign">
-                <span className="full-width">Contact</span>
+                <span className="full-width">Products</span>
               </div>
             </div>
           </div>

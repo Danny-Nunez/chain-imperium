@@ -6,7 +6,6 @@ import appData from "../../data/app.json";
 import {
   handleDropdown,
   handleMobileDropdown,
-  handleSearch,
 } from "../../common/navbar";
 
 const Navbar = ({ lr, nr, theme }) => {
