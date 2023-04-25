@@ -16,7 +16,7 @@ export async function checkout({lineItems}){
 		mode: 'payment',
 		lineItems,
 		successUrl: `${window.location.origin}?session_id={CHECKOUT_SESSION_ID}`,
-		cancelUrl: window.location.origin
+		cancelUrl: 'https://chain-imperium.vercel.app/products/products-dark/'
 	})
 
 }
