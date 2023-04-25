@@ -11,7 +11,7 @@ import {
 
 const Navbar = ({ lr, nr, theme }) => {
   React.useEffect(() => {
-    handleSearch();
+    
   }, []);
   return (
     <nav
@@ -70,19 +70,16 @@ const Navbar = ({ lr, nr, theme }) => {
               </span>
               <div className="dropdown-menu">
                 <Link href="/showcase/showcase-dark">
-                  <a className="dropdown-item">Full Screen</a>
+                  <a className="dropdown-item">Blockchain Solutions</a>
                 </Link>
                 <Link href="/showcase2/showcase2-dark">
-                  <a className="dropdown-item">Creative Carousel</a>
+                  <a className="dropdown-item">Web3 Software & Services</a>
                 </Link>
                 <Link href="/showcase3/showcase3-dark">
-                  <a className="dropdown-item">Radius Carousel</a>
+                  <a className="dropdown-item">Financial Services</a>
                 </Link>
                 <Link href="/showcase4/showcase4-dark">
-                  <a className="dropdown-item">Columns Carousel</a>
-                </Link>
-                <Link href="/showcase5/showcase5-dark">
-                  <a className="dropdown-item">Boxed Carousel</a>
+                  <a className="dropdown-item">Chain Marketing</a>
                 </Link>
               </div>
             </li>
@@ -105,7 +102,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/products/products-dark">
                   <a className="dropdown-item">PR Services</a>
                 </Link>
-                <Link href="/works2/works2-dark">
+                {/* <Link href="/works2/works2-dark">
                   <a className="dropdown-item">Masonry 3 Columns</a>
                 </Link>
                 <Link href="/works3/works3-dark">
@@ -113,7 +110,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 </Link>
                 <Link href="/works4/works4-dark">
                   <a className="dropdown-item">Pinterest List</a>
-                </Link>
+                </Link> */}
               </div>
             </li>
             <li className="nav-item">
@@ -121,29 +118,13 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">Contact</a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="/contact/contact-dark">
+                <a className="nav-link">Career</a>
+              </Link>
+            </li>
           </ul>
-          <div className="search">
-            <span className="icon"></span>
-            <div className="search-form text-center custom-font2">
-              {/* <Formik
-                initialValues={{
-                  search: "",
-                }}
-                onSubmit={async (values) => {
-                  alert(JSON.stringify(values, null, 2));
-                  // Reset the values
-                  values.search = "";
-                }}
-              >
-                {({ errors, touched }) => (
-                  <Form>
-                    <Field type="text" name="search" placeholder="Search" />
-                  </Form>
-                )}
-              </Formik> */}
-              <span className="close pe-7s-close cursor-pointer"></span>
-            </div>
-          </div>
+          
         </div>
       </div>
     </nav>
