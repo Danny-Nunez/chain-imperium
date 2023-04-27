@@ -35,7 +35,7 @@ const BlockchainDark = () => {
       <BlockchainHeader />
       <BlockchainIntro />
       <BlockchainServices4 withPadding withOutTitle />
-      
+     
       <BlockchainArea />
       
       <Footer />

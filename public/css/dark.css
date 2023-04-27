@@ -3072,7 +3072,7 @@ header.simpl {
     padding: 60px;
     background: #151921;
     position: relative;
-    margin-top: 30px;
+   
    }
     .services .item.simpl {
       background: transparent;
@@ -5024,6 +5024,10 @@ header.simpl {
       color: #999; }
       .footer-half .copyrights p a {
         color: #af30f3; }
+        
+    .md-mb50 {
+      margin-bottom: 50px; 
+    }
 
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
