@@ -48,7 +48,7 @@ const Products = () => {
           spread: 70,
           origin: { y: 0.6 }
         });
-      }, 2000);
+      }, 2500);
     }
   }, [status]);
 
