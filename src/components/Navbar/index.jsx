@@ -101,7 +101,7 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">PR Services</a>
                 </Link>
                 <Link href="/products/products-dark">
-                <a className="nav-link dropdown-item">Test</a>
+                <a className="nav-link"><span className="dropdown-item">Test</span></a>
               </Link>
                 {/* <Link href="/works2/works2-dark">
                   <a className="dropdown-item">Masonry 3 Columns</a>
