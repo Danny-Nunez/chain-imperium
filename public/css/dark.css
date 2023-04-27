@@ -33,6 +33,7 @@ body {
       border-color: #363b45; }
 
 .main-content {
+  margin-right: -20px;
   background: #0c0f16;
   position: relative;
   z-index: 3; }
@@ -1650,6 +1651,7 @@ body {
 /* ====================== [ End navbar ] ====================== */
 /* ====================== [ Start Slider ] ====================== */
 .slider {
+  margin-right: -25px;
   position: relative; }
   .slider.fixed-slider {
     position: fixed;
@@ -1665,7 +1667,8 @@ body {
       overflow: hidden;
       width: 100%;
       min-height: 100vh;
-      padding-bottom: 50px; }
+      padding-bottom: 50px; 
+    }
       .slider .parallax-slider .swiper-slide .bg-img {
         position: absolute;
         top: 0;
