@@ -31,7 +31,6 @@ body {
     body.dark2 .footer-half .copyrights {
       background: #252830;
       border-color: #363b45; }
-
 .main-content {
   margin-right: -20px;
   background: #0c0f16;
@@ -1268,13 +1267,13 @@ body {
 /* ====================== [ Start navbar ] ====================== */
 .navbar {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 10px;
+  top: 0px;
   padding: 0;
-  margin: 0;
+  margin: 0px;
   width: 100%;
   background: transparent;
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
   z-index: 999;
   min-height: 80px; }
   .navbar .icon-bar {
@@ -1386,6 +1385,7 @@ body {
   background: #11141b;
   border-color: #181b21;
   padding: 0;
+  margin-left: -15px;
   position: fixed;
   top: -80px;
   -webkit-transition: -webkit-transform .5s;
@@ -5082,6 +5082,8 @@ header.simpl {
   .navbar {
     min-height: 60px; }
     .navbar .navbar-collapse {
+      margin-left: -12px;
+      margin-right: -12px;
       max-height: 340px;
       overflow: auto;
       background: #11141b;
@@ -5090,8 +5092,11 @@ header.simpl {
     .navbar .nav-link {
       margin: 10px auto !important; }
   .navbar .logo {
-    margin-left: 15px;
-    width: 130px; }
+    margin-left: 0px;
+    width: 120px; }
+    .nav-scroll .logo {
+      margin-left: 15px;
+    }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
     color: #fff !important; }
