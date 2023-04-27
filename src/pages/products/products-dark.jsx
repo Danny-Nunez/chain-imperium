@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProductHeader from "../../components/Product-header";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
@@ -6,6 +6,7 @@ import DarkTheme from "../../layouts/Dark";
 import { checkout } from "../../common/checkout";
 import confetti from 'canvas-confetti';
 import { useRouter } from 'next/router';
+
 
 const Products = () => {
   const fixedHeader = React.useRef(null);
@@ -39,7 +40,17 @@ const Products = () => {
     });
   }, []);
 
-  
+  useEffect(() => {
+    if (status && status === 'success') {
+      setTimeout(() => {
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 }
+        });
+      }, 2000);
+    }
+  }, [status]);
 
   return (
     <DarkTheme>
@@ -47,11 +58,9 @@ const Products = () => {
       <ProductHeader sliderRef={fixedHeader} />
       <div className="main-content" ref={MainContent}>
       <div className="prServiceWrapper">
-        <div className="prContainer">
-
-        {status && status === 'success' && (
-  <div className='bg-green-100 text-green-700 p-2 rounded border mb-2 border-green-700'>
-    <h3>Thank you, Payment Successful.</h3>
+      {status && status === 'success' && (
+  <div className="successMessage">
+    <h3>Thank you, <span>Payment Successful.</span></h3>
      You will receive an email shortly with the info needed to complete your pr placement request.
   </div>
 )}
@@ -61,7 +70,7 @@ const Products = () => {
     Payment Unsuccessful
   </div>
 )}
-
+        <div className="prContainer">
           <div className="prServiceCard">
             <img className="productImage" src="/img/yahoo.png" alt="" />
             <p><h6>1 PR Placement</h6></p>
@@ -145,8 +154,6 @@ const Products = () => {
           
         </div>
 
-        
-        
         </div>
       </div>
       <Footer />

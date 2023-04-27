@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Web3 Design & Development",
+        "icon": "pe-7s-gleam",
+        "content": "Web and mobile design and development focuses on creating visually appealing and user-friendly digital experiences for websites and mobile applications, ensuring seamless functionality across devices."
+    },
+    {
+      "id": 2,
+      "title": "Defi Mobile App Development",
+      "icon": "pe-7s-phone",
+      "content": "Blockchain mobile app development involves integrating blockchain protocols, such as smart contracts and decentralized data storage, into the mobile application to provide users with these benefits."
+    },
+    {
+      "id": 3,
+      "title": "Metaverse Space Development",
+      "icon": "pe-7s-magic-wand",
+      "content": "Make your business future-ready with our metaverse development services, where our developers will help you design and architecting hyper-realistic virtual platforms as per your business needs."
+    },
+    {
+      "id": 4,
+      "title": "Blockchain Development",
+      "icon": "pe-7s-box2",
+      "content": "Blockchain development involves creating and implementing distributed ledger technology solutions to improve security, transparency, and efficiency in various industries and applications."
+    },
+    {
+      "id": 5,
+      "title": "Blockchain Marketing",
+      "icon": "pe-7s-news-paper",
+      "content": "Crypto PR, Influencer marketing, paid video production and promotion, community management, and social media growth can be customized to suit your company's specific needs, ensuring a tailored approach that effectively targets your target audience and achieves desired outcomes."
+    },
+    {
+      "id": 6,
+      "title": "Blockchain PR",
+      "icon": "pe-7s-radio",
+      "content": "Our blockchain PR strategies are built on strong relationships with top content creators, and writers, media connections enabling us to secure prime coverage in leading publications and respected outlets in the market."
+    }
+]

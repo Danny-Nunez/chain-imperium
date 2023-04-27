@@ -3071,7 +3071,9 @@ header.simpl {
     text-align: center;
     padding: 60px;
     background: #151921;
-    position: relative; }
+    position: relative;
+    margin-top: 30px;
+   }
     .services .item.simpl {
       background: transparent;
       border: 1px solid rgba(255, 255, 255, 0.05);
@@ -4847,7 +4849,19 @@ header.simpl {
   background-color: rgba(163, 6, 195, 0.175);
   border: none;
 }
-
+.successMessage {
+  flex-direction: column;
+  width: 100%;
+  border: 0px solid rgb(64, 64, 64);
+  display: flex;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+.successMessage span {
+  color: #0cb900;
+}
 /* ====================== [ End products ] ====================== */
 
 /* ====================== [ Start contact ] ====================== */
