@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "title": "Digital Marketing",
+        "title": "Global Blockchain Services",
         "icon": "pe-7s-gleam",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "content": "As a leading provider of global blockchain services, we specialize in empowering businesses with cutting-edge distributed ledger technology solutions. Our comprehensive services encompass blockchain consulting, development, integration, and support. We cater to a wide range of industries, assisting them in harnessing the full potential of blockchain technology for enhanced security, transparency, and efficiency. Trust our team of experienced professionals to guide you through the complex landscape of blockchain adoption and drive your business towards innovation and success."
     },
     {
       "id": 2,
-      "title": "Web & App Development",
+      "title": "PR Services",
       "icon": "pe-7s-phone",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "content": "We offer tailored public relations and business growth management solutions on a global scale, adapting our services to your unique requirements. Our diverse expertise enables us to serve a wide range of industries, backed by extensive knowledge in public relations and business marketing strategies. We cater to businesses, products, company and project reviews, as well as full-scale celebrity and influencer endorsement campaigns. Renowned for our exceptional performance, our team is committed to delivering top-tier PR solutions to elevate your brand and drive growth."
     },
     {
       "id": 3,
-      "title": "Graphic Design",
+      "title": "Blockchain PR",
       "icon": "pe-7s-magic-wand",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "content": "Chain Imperium, a leading Blockchain Web3 consulting firm, proudly collaborates with the esteemed PR marketing firm established in 2016. Delivering over 15 million impressions per month for its clients, Imperium Group features an exceptional team of 25 professionals across New York, Dallas, and Los Angeles, while Chain Imperium operates from Washington DC, Maryland, and Virginia. As an innovator in the blockchain industry, Chain Imperium expertly leverages the skills of teams specializing in Fintech and Web3 development. The firm has triumphantly contributed to the growth and support of more than 100 blockchain projects as of 2023, spanning from local businesses to the blockchain world."
     }
 ]

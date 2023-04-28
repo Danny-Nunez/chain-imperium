@@ -44,27 +44,13 @@ const MinimalArea = () => {
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
                   <h6>
-                    <span>1</span> Our Mission
+                     Our Mission
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                  At Chain Imperium, our mission in the blockchain sector is to establish a comprehensive suite of tools, systems, and services that companies of all sizes, from large corporations to small retail businesses, can leverage. We aim to facilitate their use of this technology and, as a result, drive significant productivity gains. From conceptualization to execution, our strategists and engineers work closely with clients, guiding them along the optimal path for blockchain strategy development tailored to their businesses.
                   </p>
-                </li>
-                <li className="wow fadeInUp" data-wow-delay=".4s">
-                  <h6>
-                    <span>2</span> Our Goals
-                  </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
-                </li>
-                <li className="wow fadeInUp" data-wow-delay=".6s">
-                  <h6>
-                    <span>3</span> Why Us?
-                  </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
+                
+                
                 </li>
               </ul>
             </div>

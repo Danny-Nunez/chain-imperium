@@ -76,9 +76,9 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/services/financial">
                   <a className="dropdown-item">Financial Services</a>
                 </Link>
-                <Link href="/showcase4/showcase4-dark">
+                {/* <Link href="/showcase4/showcase4-dark">
                   <a className="dropdown-item">Chain Marketing</a>
-                </Link>
+                </Link> */}
               </div>
             </li>
             <li className="nav-item">
@@ -117,9 +117,9 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact/contact-dark">
+              {/* <Link href="/contact/contact-dark">
                 <a className="nav-link">Career</a>
-              </Link>
+              </Link> */}
             </li>
           </ul>
           

@@ -15,14 +15,10 @@ const AboutIntro = () => {
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  We develop creative solutions for small and big brands alike,
-                  build authentic product identities and much more.Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit sit non facilisis
-                  vitae eu. Ultrices ut diam morbi risus dui, nec eget at lorem
-                  in id tristique in elementum leo nisi eleifend placerat magna
-                  lacus elementum ornare vehicula odio posuere quisque ultrices
-                  tempus cras id blandit maecenas in ornare quis dolor tempus
-                  risus vitae feugiat fames aliquet sede.
+                Chain Imperium is a leading blockchain development company specializing in secure, decentralized, and innovative solutions. We specialize in building decentralized platforms, Metaverse, tokens, blockchain bridges, and more.
+Our complete blockchain development services include consultation, design, development, quality assurance, security auditing, maintenance, and support. As a pioneering blockchain development agency, we conduct a thorough assessment of your business to determine how blockchain technology can benefit you and enhance transparency.
+At Chain Imperium, we create cutting-edge blockchain solutions for Web3, bridging traditional software systems. As a "Web 2.5 company," we are the bridge of Web2 to Web3; we leverage new and proven solutions across multiple industries for optimal results. Our diverse expertise in innovative software, blockchain, and UI/UX solutions enables us to successfully integrate these solutions into numerous industries, bringing growth and improvement to our clients.
+We take pride in our ability to deliver exceptional blockchain development solutions that cater to your unique business needs. Our expertise in the field, combined with our commitment to excellence, ensures that we provide you with top-notch services that meet and exceed your expectations. Trust us to deliver the best blockchain solutions for your business.
                 </p>
               </Split>
             </div>
