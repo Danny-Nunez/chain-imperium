@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "image": "/img/team/01.jpg",
+    "image": "/img/team/4.jpg",
     "name": "Hasib sharif",
     "title": "General Manager"
   },
   {
     "id": 2,
-    "image": "/img/team/02.jpg",
+    "image": "/img/team/2.jpg",
     "name": "Jonson Leo",
     "title": "Founder"
   },
   {
     "id": 3,
-    "image": "/img/team/03.jpg",
+    "image": "/img/team/3.jpg",
     "name": "Leio Man",
-    "title": "Founder"
+    "title": "Graphic Designer"
   },
   {
     "id": 4,
-    "image": "/img/team/4.jpg",
+    "image": "/img/team/1.jpg",
     "name": "Robert Front",
-    "title": "CEO Founder"
+    "title": "Copywriter"
   },
   {
     "id": 5,
@@ -33,6 +33,6 @@
     "id": 6,
     "image": "/img/team/6.jpg",
     "name": "Matt Huk",
-    "title": "3D Visualization"
+    "title": "Full Stack Developer"
   }
 ]

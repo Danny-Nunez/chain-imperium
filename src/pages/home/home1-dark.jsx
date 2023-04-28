@@ -46,8 +46,8 @@ const Homepage1 = () => {
 
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
-      <IntroWithSlider1 sliderRef={fixedSlider} />
+      <Navbar nr={navbarRef} lr={logoRef} />  
+      <IntroWithSlider1 sliderRef={fixedSlider} />   
       <div ref={MainContent} className="main-content">
         <AboutUs1 />
         <Services1 />
