@@ -5106,9 +5106,7 @@ header.simpl {
     .nav-scroll .logo {
       margin-left: 15px;
     }
-    .navbar-toggler {
-      padding-left: 40px;
-    }
+    
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
     color: #fff !important; }
