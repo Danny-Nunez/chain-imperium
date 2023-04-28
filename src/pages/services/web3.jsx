@@ -12,7 +12,7 @@ import Team1 from "../../components/Team1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
 
-const web3Dark = () => {
+const Web3Dark = () => {
   const navbarRef = React.useRef(null);
   React.useEffect(() => {
     var navbar = navbarRef.current;
@@ -43,4 +43,4 @@ const web3Dark = () => {
   );
 };
 
-export default web3Dark;
+export default Web3Dark;
