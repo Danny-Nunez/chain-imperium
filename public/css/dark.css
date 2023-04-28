@@ -1275,7 +1275,7 @@ body {
 /* ====================== [ Start navbar ] ====================== */
 .navbar {
   position: absolute;
-  left: 14px;
+  left: 0px;
   top: 0px;
   padding: 0;
   margin: 0px;
