@@ -1,24 +1,24 @@
 import React from "react";
 
-const BlockchainHeader = () => {
+const Web3Header = () => {
   return (
     <header
       className="pages-header bg-img valign parallaxie"
-      style={{ backgroundImage: "url(/img/slid/4.jpg)" }}
+      style={{ backgroundImage: "url(/img/slid/5.jpg)" }}
       data-overlay-dark="5"
     >
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="cont text-center">
-              <h1>Blockchain</h1>
+              <h1>Web3</h1>
               <div className="path">
                 <a href="#0">Home</a>
                 <span>/</span>
                   Services
                 <span>/</span>
                 <a href="#0" className="active">
-                  Blockchain Solutions
+                  Web3 Software & Services
                 </a>
               </div>
             </div>
@@ -29,4 +29,4 @@ const BlockchainHeader = () => {
   );
 };
 
-export default BlockchainHeader;
+export default Web3Header;

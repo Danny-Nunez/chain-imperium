@@ -36,7 +36,15 @@ body {
   background: #0c0f16;
   position: relative;
   z-index: 3; }
-
+.web3images{
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.web3title {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
 img {
   width: 100%;
   height: auto; }
@@ -1267,7 +1275,7 @@ body {
 /* ====================== [ Start navbar ] ====================== */
 .navbar {
   position: absolute;
-  left: 10px;
+  left: 14px;
   top: 0px;
   padding: 0;
   margin: 0px;
@@ -5097,6 +5105,9 @@ header.simpl {
     width: 120px; }
     .nav-scroll .logo {
       margin-left: 15px;
+    }
+    .navbar-toggler {
+      padding-left: 40px;
     }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
