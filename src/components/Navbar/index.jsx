@@ -73,7 +73,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/services/web3">
                   <a className="dropdown-item">Web3 Software & Services</a>
                 </Link>
-                <Link href="/showcase3/showcase3-dark">
+                <Link href="/services/financial">
                   <a className="dropdown-item">Financial Services</a>
                 </Link>
                 <Link href="/showcase4/showcase4-dark">
