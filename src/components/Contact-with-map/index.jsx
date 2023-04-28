@@ -40,7 +40,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
                     formData.append('email', values.email);
                     formData.append('message', values.message);
 
-                    const res = await axios.post('/contact.php', formData);
+                    const res = await axios.post('https://dannyfullstack.dev/contact.php', formData);
 
                     if (!res) return;
 
