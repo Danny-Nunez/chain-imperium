@@ -2291,6 +2291,7 @@ header.simpl {
   z-index: 3; }
 
 .pages-header {
+  margin-right: -25px;
   height: 75vh; }
   .pages-header .cont h1 {
     font-size: 75px;
