@@ -1168,6 +1168,18 @@ body {
 
 /* ====================== [ End Heading ] ====================== */
 /* ====================== [  Start Button Style ] ====================== */
+.btn-curve2 {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.btn-curve2:hover {
+  background-color: rgba(182, 182, 182, 0.192);
+  color: #fff;
+}
 .btn-curve {
   background: transparent;
   padding: 12px 35px;
@@ -1178,14 +1190,16 @@ body {
   .btn-curve:focus {
     outline: none; }
   .btn-curve:hover {
-    outline: none; }
+    outline: none;
+   }
     .btn-curve:hover:after {
       bottom: -30px;
       -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
       transform: rotate(0deg); }
     .btn-curve:hover span {
-      color: #fff; }
+      color: #fff;
+    }
   .btn-curve:after {
     content: '';
     position: absolute;
@@ -4876,11 +4890,18 @@ header.simpl {
 /* ====================== [ End products ] ====================== */
 
 /* ====================== [ Start contact ] ====================== */
+.error {
+  color: #f70000;
+}
+.labels {
+  color: #fff;
+  padding-top: 50px;
+}
 .contact-sec .form .form-group {
   margin-bottom: 30px; }
   .contact-sec .form .form-group input, .contact-sec .form .form-group textarea {
     width: 100%;
-    padding: 15px 0;
+    padding: 1px 0;
     border: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     background: transparent;
@@ -4896,7 +4917,7 @@ header.simpl {
 .contact .form input, .contact .form textarea {
   color: #fff;
   width: 100%;
-  padding: 15px 0;
+  padding: 1px 0;
   background: transparent;
   border: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
@@ -4905,7 +4926,7 @@ header.simpl {
   padding: 15px;
   min-height: 140px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  margin-top: 30px; }
+  margin-top: 0px; }
 
 .contact .cont-info h3 {
   font-size: 18px;
