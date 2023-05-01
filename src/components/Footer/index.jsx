@@ -80,19 +80,18 @@ const Footer = ({ noSubBG }) => {
 
               <div className='my-10'>
       
-     
-      
-      <div className='mt-5'>
+      <div className='form mt-5'>
         <input
           onChange={(e) => {
             setEmail(e.target.value);
           }}
           type='email'
           placeholder='Your email'
-          className="form-group custom-font"></input>
+          className="form-group custom-font input">
+          </input>
         <button
           onClick={subscribe}
-          className={`subButton ${loading ? "btn-disabled loading" : "subButton-set"}`}
+          className={`custom-font subButton ${loading ? "btn-disabled loading" : "subButton-set"}`}
           disabled={loading}
         >
           {loading ? "Loading..." : "Subscribe!"}
