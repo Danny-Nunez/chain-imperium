@@ -1,22 +1,40 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
+import axios from "axios";
+import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Footer = ({ noSubBG }) => {
-  function validateEmail(value) {
-    let error;
-    if (!value) {
-      error = "Required";
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
-    }
-    return error;
-  }
-  const sendEmail = (ms) => new Promise((r) => setTimeout(r, ms));
+  const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const subscribe = () => {
+    setLoading(true);
+    axios
+      .put("/api/mailingList", {
+        email,
+      })
+      .then((result) => {
+        if (result.status === 200) {
+          toast.success(result.data.message);
+          setLoading(false);
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+        toast.error("Oops! Something went wrong.");
+        setLoading(false);
+      });
+  };
   return (
     <footer className={`footer-half ${noSubBG ? '':'sub-bg'} section-padding pb-0`}>
       <div className="container">
+      <ToastContainer 
+    position="bottom-center"
+    theme="dark"
+    autoClose={8000} 
+    />
         <div className="row">
           <div className="col-lg-5">
             <div className="cont">
@@ -57,36 +75,32 @@ const Footer = ({ noSubBG }) => {
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newslatter</h6>
-              <p>Sign up for subscribe out newsletter!</p>
-              <Formik
-                initialValues={{
-                  subscribe: "",
-                }}
-                onSubmit={async (values) => {
-                  await sendEmail(500);
-                  alert(JSON.stringify(values, null, 2));
-                  // Reset the values
-                  values.subscribe = "";
-                }}
-              >
-                {({ errors, touched }) => (
-                  <Form>
-                    <div className="form-group custom-font">
-                      <Field
-                        validate={validateEmail}
-                        type="email"
-                        name="subscribe"
-                        placeholder="Your Email"
-                      />
-                      {errors.email && touched.email && (
-                        <div>{errors.email}</div>
-                      )}
-                      <button className="cursor-pointer">Subscribe</button>
-                    </div>
-                  </Form>
-                )}
-              </Formik>
+              <h6 className="custom-font stit simple-btn">Newsletter</h6>
+              <p>Sign up to our newsletter!</p>
+
+              <div className='my-10'>
+      
+     
+      
+      <div className='mt-5'>
+        <input
+          onChange={(e) => {
+            setEmail(e.target.value);
+          }}
+          type='email'
+          placeholder='Your email'
+          className="form-group custom-font"></input>
+        <button
+          onClick={subscribe}
+          className={`subButton ${loading ? "btn-disabled loading" : "subButton-set"}`}
+          disabled={loading}
+        >
+          {loading ? "Loading..." : "Subscribe!"}
+        </button>
+      </div>
+      <hr className='my-5' />
+    </div>
+
             </div>
             <div className="insta">
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>

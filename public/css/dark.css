@@ -4963,6 +4963,26 @@ header.simpl {
 
 /* ====================== [ End contact ] ====================== */
 /* ====================== [ Start Footer ] ====================== */
+.subButton {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: rgba(71, 71, 71, 0);
+  border-color: rgb(131, 0, 154);
+  color: #fff;
+  transition: background-color 0.5s ease;
+  transition: box-shadow 0.5s ease;
+  transition: border 0.5s ease;
+  cursor: pointer;
+}
+.subButton:hover {
+  background-color: rgba(71, 71, 71, 0.487);
+  border-color: rgb(112, 41, 255); 
+  box-shadow: 1px 1px 1px rgb(112, 41, 255);
+  cursor: pointer;
+}
 .awardSeal {
   width:120px;
 }
