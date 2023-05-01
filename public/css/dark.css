@@ -4964,11 +4964,12 @@ header.simpl {
 /* ====================== [ End contact ] ====================== */
 /* ====================== [ Start Footer ] ====================== */
 .form .input {
-  background-color: #000;
+  background-color: #161920;
   border: none;
   color: #fff;
   border-bottom: 1px solid rgb(175, 5, 201);
   height: 40px;
+  padding: 5px;
 }
 .subButton {
   margin-top: 5px;
