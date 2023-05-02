@@ -5,6 +5,7 @@
 @import "/css/ionicons.min.css";
 @import "/css/pe-icon.min.css";
 @import "/css/font-awesome.min.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +33,6 @@ body {
       background: #252830;
       border-color: #363b45; }
 .main-content {
-  margin-right: -20px;
   background: #0c0f16;
   position: relative;
   z-index: 3; }
@@ -1289,7 +1289,7 @@ body {
 /* ====================== [ Start navbar ] ====================== */
 .navbar {
   position: absolute;
-  left: 0px;
+  left: 18px;
   top: 0px;
   padding: 0;
   margin: 0px;
@@ -1406,8 +1406,9 @@ body {
 .nav-scroll {
   background: #11141b;
   border-color: #181b21;
-  padding: 0;
+  padding-left: 15px;
   position: fixed;
+  left: 0px;
   top: -82px;
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;

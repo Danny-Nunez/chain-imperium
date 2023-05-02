@@ -100,15 +100,6 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/products/products-dark">
                   <a className="dropdown-item">PR Services</a>
                 </Link>
-                {/* <Link href="/works2/works2-dark">
-                  <a className="dropdown-item">Masonry 3 Columns</a>
-                </Link>
-                <Link href="/works3/works3-dark">
-                  <a className="dropdown-item">Masonry 2 Columns</a>
-                </Link>
-                <Link href="/works4/works4-dark">
-                  <a className="dropdown-item">Pinterest List</a>
-                </Link> */}
               </div>
             </li>
             <li className="nav-item">
