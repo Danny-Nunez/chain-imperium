@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "darkImage": "/img/clients/financial/1.png",
+        "lightImage": "/img/clients/financial/1.png"
+    },
+    {
+      "id": 2,
+      "darkImage": "/img/clients/financial/2.png",
+      "lightImage": "/img/clients/financial/2.png"
+    },
+    {
+      "id": 3,
+      "darkImage": "/img/clients/financial/3.png",
+      "lightImage": "/img/clients/financial/3.png"
+    },
+    {
+      "id": 4,
+      "darkImage": "/img/clients/financial/4.png",
+      "lightImage": "/img/clients/financial/4.png"
+    },
+    {
+      "id": 5,
+      "darkImage": "/img/clients/financial/5.png",
+      "lightImage": "/img/clients/financial/5.png"
+    },
+    {
+      "id": 6,
+      "darkImage": "/img/clients/financial/6.png",
+      "lightImage": "/img/clients/financial/6.png"
+    },
+    {
+      "id": 7,
+      "darkImage": "/img/clients/financial/7.png",
+      "lightImage": "/img/clients/financial/7.png"
+    },
+    {
+      "id": 8,
+      "darkImage": "/img/clients/financial/8.png",
+      "lightImage": "/img/clients/financial/8.png"
+    }
+]

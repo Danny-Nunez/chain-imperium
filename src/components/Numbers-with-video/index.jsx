@@ -15,7 +15,7 @@ const NumbersWithVideo = ({ theme = "dark" }) => {
         className="background bg-img section-padding pb-0"
         style={{ backgroundImage: `url(/img/pattern${theme === 'light' ? '-light':''}.png)` }}
       >
-        <div className="container">
+        {/* <div className="container">
           <div className="number-sec">
             <div className="row">
               <div className="col-lg-3 col-md-6">
@@ -72,13 +72,13 @@ const NumbersWithVideo = ({ theme = "dark" }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {typeof window !== "undefined" && (
           <ModalVideo
-            channel="vimeo"
+            channel="youtube"
             autoplay
             isOpen={isOpen}
-            videoId="127203262"
+            videoId="fzWzPXEhPvA"
             onClose={() => setOpen(false)}
           />
         )}
@@ -105,7 +105,7 @@ const NumbersWithVideo = ({ theme = "dark" }) => {
                           setOpen(true);
                         }}
                         className="vid"
-                        href="https://vimeo.com/127203262"
+                        href="https://www.youtube.com/watch?v=fzWzPXEhPvA"
                       >
                         <div className="vid-butn">
                           <span className="icon">

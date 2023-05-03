@@ -2,19 +2,19 @@
     {
         "id": 1,
         "title": "Digital Asset Strategy",
-        "icon": "pe-7s-gleam",
+        "icon": "pe-7s-graph2",
         "content": "Chain Imperium is a leading innovator in the world of blockchain technology. Whether you're looking to test a new concept or develop a custom blockchain application for your business, we can assist with everything from conceptualization and business case development to software development and integration. Our team of experts is here to help you every step of the way, no matter where you are in your digital assets journey."
     },
     {
       "id": 2,
-      "title": "Fintech Pro can help you!",
-      "icon": "pe-7s-phone",
-      "content": "Crypto holds top priority at Chain Imperium as a global financial service. Driven by our mission to build trust and solve critical issues, we actively contribute to the crypto ecosystem's growth. We support clients, from emerging entities to established institutions, in developing solid digital asset strategies to capitalize on opportunities within a rapidly evolving technological landscape and an emerging regulatory framework."
+      "title": "Crypto Solutions",
+      "icon": "pe-7s-network",
+      "content": "We offer a range of services for digital assets, including infrastructure for token issuers (IPOs, ICOs, STOs, and NFTs), support for crypto funds and asset managers, and expertise in Decentralized Finance (DeFi). We also provide regulatory and compliance services and assist in developing crypto exchanges, wallets, swaps, and transactions."
     },
     {
       "id": 3,
-      "title": "Start-up",
-      "icon": "pe-7s-magic-wand",
-      "content": "We offer a range of services, including infrastructure for token issuers such as IPOs, ICOs, STOs, and NFTs, as well as support for crypto funds, VCs, hedge funds, and asset managers. They also provide DeFi solutions development, regulatory and compliance services, and crypto exchange, wallet, swap, transaction services and development."
+      "title": "Blockchain Financial",
+      "icon": "pe-7s-cash",
+      "content": "Blockchain financial technology simplifies and streamlines your operations by offering real-time, multi-party tracking and management. This not only speeds up settlements, but also enhances transparency with automated compliance. With this system, you can enjoy faster, more accurate reporting - making your business processes both efficient and trustworthy."
     }
 ]

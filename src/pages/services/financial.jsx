@@ -2,7 +2,7 @@ import React from "react";
 import FinancialHeader from "../../components/Financial-header";
 import FinancialIntro from "../../components/Financial-intro";
 import CallToAction from "../../components/Call-to-action";
-import Clients1 from "../../components/Clients1";
+import ClientsBrands from "../../components/Clients-brands";
 import Footer from "../../components/Footer";
 import BlockchainArea from "../../components/Blockchain-area";
 import Navbar from "../../components/Navbar";
@@ -35,7 +35,8 @@ const FinancialDark = () => {
       <FinancialHeader />
       <FinancialIntro />
       <FinancialServices4 withPadding withOutTitle />
-     
+      <div className="blockchainTitle"><h5 >Blockchain Financial Solutions</h5></div>
+     <ClientsBrands />
       {/* <BlockchainArea /> */}
       
       <Footer />

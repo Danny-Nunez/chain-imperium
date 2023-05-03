@@ -12,6 +12,7 @@ import SkillsCircle from "../../components/Skills-circle";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import Works1Slider from "../../components/Works1-slider";
 import DarkTheme from "../../layouts/Dark";
+import NumbersWithVideo from "../../components/Numbers-with-video";
 
 
 const Homepage1 = () => {
@@ -53,8 +54,10 @@ const Homepage1 = () => {
         <Services1 />
         <Numbers1 />
         <Works1Slider />
-        <VideoWithTestimonials />
-        <SkillsCircle theme="dark" subBG />
+        {/* <VideoWithTestimonials /> */}
+        
+        <NumbersWithVideo />
+        {/* <SkillsCircle theme="dark" subBG /> */}
         <Clients1 theme="dark" />
         <BlogsTwoColumnSlider />
         <CallToAction subBG />

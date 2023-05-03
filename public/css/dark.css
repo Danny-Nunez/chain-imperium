@@ -3187,7 +3187,7 @@ header.simpl {
         left: 0;
         top: 2px; }
     .min-area .content ul.feat li {
-      padding: 0 0 30px 0;
+      padding: 0 0 20px 0;
       border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
       .min-area .content ul.feat li:last-of-type {
         padding: 0;
@@ -3216,6 +3216,11 @@ header.simpl {
 
 /* ====================== [ End services ] ====================== */
 /* ====================== [ Start brands ] ====================== */
+.blockchainTitle {
+  align-items: center;
+  text-align: center;
+  margin-bottom: -40px; 
+}
 .clients .brands:hover img {
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
@@ -3314,6 +3319,104 @@ header.simpl {
   transition: all .4s; }
 
 /* ====================== [ End brands ] ====================== */
+/* ====================== [ Start blockchainbrands ] ====================== */
+.blockchainclients .brands:hover img {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  opacity: 0; }
+
+.blockchainclients .brands:hover .link {
+  opacity: 1 !important;
+  -webkit-transition: all 0;
+  -o-transition: all 0;
+  transition: all 0; }
+
+.blockchainclients .brands:hover .char {
+  -webkit-animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
+  animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
+  -webkit-animation-delay: calc(20ms * var(--char-index));
+  animation-delay: calc(20ms * var(--char-index)); }
+
+.blockchainclients .brands .item {
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  height: 160px;
+  line-height: 160px; }
+
+.blockchainclients .brands .img {
+  position: relative; }
+  .blockchainclients .brands .img img {
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    max-width: 75px;
+    margin: auto; }
+  .blockchainclients .brands .img .link {
+    font-size: 13px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    opacity: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+
+.blockchainclients .bord .item {
+  margin-bottom: 30px; }
+
+/* .blockchainclients-brand .brands:hover .img {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  opacity: 0; }
+
+.blockchainclients-brand .brands:hover .link {
+  opacity: 1 !important;
+  -webkit-transition: all 0;
+  -o-transition: all 0;
+  transition: all 0; }
+
+.blockchainclients-brand .brands:hover .char {
+  -webkit-animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
+  animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
+  -webkit-animation-delay: calc(20ms * var(--char-index));
+  animation-delay: calc(20ms * var(--char-index)); } */
+
+.blockchainclients-brand .item {
+  position: relative;
+  text-align: center; }
+  .blockchainclients-brand .item .link {
+    font-size: 16px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    opacity: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+
+.blockchainclients-brand .img {
+  max-width: 125px;
+  margin: auto;
+  position: relative;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s; }
+/* ====================== [ End blockchainbrands ] ====================== */
 /* ====================== [ Start Work ] ====================== */
 .portfolio {
   position: relative; }
@@ -4263,9 +4366,9 @@ header.simpl {
       display: none; }
 
 .block-sec .showreel .video-box {
-  margin-top: 200px;
+  margin-top: 0px;
   position: relative;
-  margin-bottom: -100px;
+  margin-bottom: 50px;
   z-index: 2; }
   .block-sec .showreel .video-box:after, .block-sec .showreel .video-box:before {
     content: '';

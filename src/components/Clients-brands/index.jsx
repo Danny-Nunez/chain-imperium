@@ -4,12 +4,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Split from "../Split";
-import ClientsBrandsData from "../../data/sections/clients-brands.json";
+import ClientsBrandsData from "../../data/sections/financial-brands.json";
 
 const ClientsBrands = ({ subBG, theme }) => {
   return (
     <section
-      className={`clients-brand section-padding ${subBG ? "sub-bg" : ""}`}
+      className={`blockchainclients-brand section-padding ${subBG ? "sub-bg" : ""}`}
     >
       <div className="container">
         <Slider
@@ -71,7 +71,7 @@ const ClientsBrands = ({ subBG, theme }) => {
               >
                 <div className="img">
                   <img
-                    src={theme == "dark" ? item.darkImage : item.lightImage}
+                    src={theme == "dark" ? item.lightImage : item.darkImage}
                     alt=""
                   />
                 </div>
