@@ -46,11 +46,18 @@ const Footer = ({ noSubBG }) => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
+                    <span>Web : </span> www.chainimperium.com
+                  </li>
+                  <li>
                     <span>Email : </span> admin@chainimperium.com
                   </li>
                   <li>
-                    
+                    <span>PR Release : </span> pr@chainimperium.com
                   </li>
+                  <li>
+                    <span>Phone : </span> (571) 4 9 C H A I N
+                  </li>
+                  
                   
                 </ul>
               </div>
