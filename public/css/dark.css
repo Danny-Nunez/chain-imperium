@@ -5053,6 +5053,15 @@ header.simpl {
 /* ====================== [ End products ] ====================== */
 
 /* ====================== [ Start contact ] ====================== */
+.emailTitle {
+  color: #fff;
+  font-weight: 700;
+}
+.addressTitle {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10px;
+}
 .error {
   color: #f70000;
 }

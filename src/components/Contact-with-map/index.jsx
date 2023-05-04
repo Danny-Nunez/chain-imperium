@@ -134,10 +134,14 @@ const ContactWithMap = ({ theme = "dark" }) => {
                   </h3>
                 </Split>
                 <div className="item mb-40">
-                  <h5>
-                    <a href="#0">admin@chainimperium.com</a>
-                  </h5>
-                  <h5>443.565.7678</h5>
+                <h6><span className="emailTitle">Web:</span>
+                {" "}<a href="https://chainimperium.com">www.chainimperium.com</a></h6>
+                <h6><span className="emailTitle">Email:</span>
+                {" "}<a href="admin@chainimperium.com">admin@chainimperium.com</a></h6>
+                <h6><span className="emailTitle">Press Release:</span>
+                {" "}<a href="pr@chainimperium.com">pr@chainimperium.com</a></h6>
+                <h6><span className="emailTitle">Phone:</span>
+                {" "}<a href="#">(571) 4 9 C H A I N</a></h6> 
                 </div>
                 <Split>
                   <h3 className="custom-font wow" data-splitting>
@@ -145,10 +149,38 @@ const ContactWithMap = ({ theme = "dark" }) => {
                   </h3>
                 </Split>
                 <div className="item">
+                <div className="addressTitle"> Tysons Corner</div>
                   <h6>
-                  Tysons Corner  8609 Westwood Center Dr Suite 110,
+                  8609 Westwood Center Dr Suite 110,
                     <br />
                     Tysons Corner, VA 22182
+                  </h6>
+                </div>
+                <div className="item">
+                <div className="addressTitle"> Washington DC</div>
+                  <h6>
+                  1530 Wilson Boulevard 
+                    <br />
+                    Arlington, VA 22209
+                  </h6>
+                </div>
+                <div className="item">
+                <div className="addressTitle"> New Jersey</div>
+                  <h6>
+                  100 Matawan Rd
+
+                    <br />
+                    Matawan, NJ 07747
+                  </h6>
+                </div>
+                <div className="item">
+                <div className="addressTitle"> Florida</div>
+                  <h6>
+                  261 N. University Dr
+
+
+                    <br />
+                    Plantation, FL 33324
                   </h6>
                 </div>
                 <div className="social mt-50">
