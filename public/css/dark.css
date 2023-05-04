@@ -4921,7 +4921,7 @@ header.simpl {
   padding-left: 10px;
   padding-right: 10px;
   color: #fff;
-  border-right: solid;
+  border-right: 0.5px #fff solid;
   margin-top: 20px;
   margin-bottom: 20px;
   cursor: pointer;
@@ -5462,6 +5462,24 @@ header.simpl {
     font-size: 40px; } }
 
 @media screen and (max-width: 767px) {
+  .selectionButton {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .prServiceDetails li  {
+    font-size: 9px;
+    display: flex;
+    max-width: 100%;
+    word-break:break-all; }
+    .prServiceDetails h5  {
+      font-size: 14px;
+      display: flex;
+      width: 260px;
+      word-break:break-all; }
+      .productImageheader {
+        width: 200px;
+        margin-bottom: 10px;
+      }
   .sm-mb10 {
     margin-bottom: 10px; }
   .sm-mb20 {
@@ -5618,6 +5636,24 @@ header.simpl {
     margin-bottom: 30px; } }
 
 @media screen and (max-width: 480px) {
+  .selectionButton {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .prServiceDetails li  {
+    font-size: 9px;
+    display: flex;
+    max-width: 100%;
+    word-break:break-all; }
+    .prServiceDetails h5  {
+      font-size: 14px;
+      display: flex;
+      width: 260px;
+      word-break:break-all; }
+      .productImageheader {
+        width: 200px;
+        margin-bottom: 10px;
+      }
   .hamenu .cont-info {
     display: none; }
   .hamenu .menu-links .main-menu > li {
