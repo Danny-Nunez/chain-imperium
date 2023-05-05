@@ -18,7 +18,7 @@ const Products = () => {
   const [showDiv2, setShowDiv2] = useState(false);
   const [showDiv3, setShowDiv3] = useState(false);
   const [showDiv0, setShowDiv0] = useState(true);
-
+  const [loading, setLoading] = useState(false);
 
   React.useEffect(() => {
     setInterval(() => {
@@ -43,6 +43,51 @@ const Products = () => {
       }
     });
   }, []);
+
+  const handleYahooBuyNowClick = () => {
+    setLoading(true);
+    checkout({
+      lineItems: [
+        {
+          price: "price_1N0ADSDG6gDcSJ4xYuqJRUn8",
+          quantity: 1
+        }
+      ]
+    });
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000); // delay for 3 seconds
+  };
+
+  const handleBuyNowClick2 = () => {
+    setLoading(true);
+    checkout({
+      lineItems: [
+        {
+          price: "price_1N0aNKDG6gDcSJ4xF9RIqlMb",
+          quantity: 1
+        }
+      ]
+    });
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000); // delay for 3 seconds
+  };
+  
+  const handleBuyNowClick3 = () => {
+    setLoading(true);
+    checkout({
+      lineItems: [
+        {
+          price: "price_1N0aQrDG6gDcSJ4xDDoTsME7",
+          quantity: 1
+        }
+      ]
+    });
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000); // delay for 3 seconds
+  };
 
   useEffect(() => {
     if (status && status === 'success') {
@@ -150,7 +195,12 @@ const Products = () => {
             {" "}Published on yahoofinance.com</li>
           </ul>
           <p><h6>Price $650.00</h6></p>
-            <button className="prbutton" onClick={(() => {
+          
+          <button className="prbutton" onClick={handleYahooBuyNowClick}>
+        {loading ? 'Loading...' : 'Buy now'}
+      </button>
+          
+            {/* <button className="prbutton" onClick={(() => {
               checkout({
                 lineItems: [
                   {
@@ -159,7 +209,7 @@ const Products = () => {
                   }
                 ]
               })
-            })}>Buy Now</button>
+            })}>Buy Now</button> */}
             
             <a href='https://commerce.coinbase.com/checkout/1aa85117-f659-4df7-a72e-594c409512f2' target={"_blank"} rel={"noreferrer"}>
             <button className="prbutton">Pay with Crypto</button>
@@ -182,7 +232,7 @@ const Products = () => {
             {" "}Published on businessinsider.com</li>
           </ul>
           <p><h6>Price $650.00</h6></p>
-            <button className="prbutton" onClick={(() => {
+            {/* <button className="prbutton" onClick={(() => {
               checkout({
                 lineItems: [
                   {
@@ -191,7 +241,10 @@ const Products = () => {
                   }
                 ]
               })
-            })}>Buy Now</button>
+            })}>Buy Now</button> */}
+            <button className="prbutton" onClick={handleBuyNowClick2}>
+        {loading ? 'Loading...' : 'Buy now'}
+      </button>
             <a href='https://commerce.coinbase.com/checkout/ffe3997f-e601-41a3-8ed1-b1ec46b72e6d' target={"_blank"} rel={"noreferrer"}>
             <button className="prbutton">Pay with Crypto</button>
               </a>
@@ -214,7 +267,7 @@ const Products = () => {
             {" "}Published on marketwatch.com</li>
           </ul>
           <p><h6>Price $650.00</h6></p>
-            <button className="prbutton" onClick={(() => {
+            {/* <button className="prbutton" onClick={(() => {
               checkout({
                 lineItems: [
                   {
@@ -223,7 +276,10 @@ const Products = () => {
                   }
                 ]
               })
-            })}>Buy Now</button>
+            })}>Buy Now</button> */}
+            <button className="prbutton" onClick={handleBuyNowClick3}>
+        {loading ? 'Loading...' : 'Buy now'}
+      </button>
             <a href='https://commerce.coinbase.com/checkout/1e81802d-79f7-4478-b5d1-13d3228661b2' target={"_blank"} rel={"noreferrer"}>
             <button className="prbutton">Pay with Crypto</button>
               </a>
