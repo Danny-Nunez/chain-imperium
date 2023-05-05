@@ -159,7 +159,11 @@ const Products = () => {
                   }
                 ]
               })
-            })}>Buy Now</button><button className="prbutton">Learn More +</button>
+            })}>Buy Now</button>
+            
+            <a href='https://commerce.coinbase.com/checkout/1aa85117-f659-4df7-a72e-594c409512f2' target={"_blank"} rel={"noreferrer"}>
+            <button className="prbutton">Pay with Crypto</button>
+              </a>
           </div>
       </div>
       <div style={{ display: showDiv2 ? 'block' : 'none' }}>
@@ -187,7 +191,10 @@ const Products = () => {
                   }
                 ]
               })
-            })}>Buy Now</button><button className="prbutton">Learn More +</button>
+            })}>Buy Now</button>
+            <a href='https://commerce.coinbase.com/checkout/ffe3997f-e601-41a3-8ed1-b1ec46b72e6d' target={"_blank"} rel={"noreferrer"}>
+            <button className="prbutton">Pay with Crypto</button>
+              </a>
           </div>
       </div>
 
@@ -216,7 +223,10 @@ const Products = () => {
                   }
                 ]
               })
-            })}>Buy Now</button><button className="prbutton">Learn More +</button>
+            })}>Buy Now</button>
+            <a href='https://commerce.coinbase.com/checkout/1e81802d-79f7-4478-b5d1-13d3228661b2' target={"_blank"} rel={"noreferrer"}>
+            <button className="prbutton">Pay with Crypto</button>
+              </a>
           </div>
       </div>
 
