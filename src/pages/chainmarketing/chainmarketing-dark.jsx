@@ -1,11 +1,11 @@
 import React from "react";
 import ChainMarketingHeader from "../../components/ChainMarketing-header";
-import AboutIntro from "../../components/About-intro";
+import ChainMarketingIntro from "../../components/ChainMarketing-intro";
 import AboutIntro2 from "../../components/About-intro2";
 import CallToAction from "../../components/Call-to-action";
 import Clients1 from "../../components/Clients1";
 import Footer from "../../components/Footer";
-import MinimalArea from "../../components/Minimal-area";
+import ChainMarketingArea from "../../components/ChainMarketing-area";
 import Navbar from "../../components/Navbar";
 import Services4 from "../../components/Services4";
 import SkillsCircle from "../../components/Skills-circle";
@@ -34,9 +34,9 @@ const ChainMarketingDark = () => {
     <DarkTheme>
       <Navbar nr={navbarRef} />
       <ChainMarketingHeader />
-      <AboutIntro />
+      <ChainMarketingIntro />
      
-      <MinimalArea />
+      <ChainMarketingArea />
       
       <CallToAction subBG />
       <Footer />

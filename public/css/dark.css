@@ -2690,6 +2690,46 @@ header.simpl {
 
 /* ====================== [ end showcase ] ====================== */
 /* ====================== [ Start Intro ] ====================== */
+.BookNow {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 18px;
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    hsl(211, 100%, 50%),
+    hsl(290, 87%, 48%)
+  );
+  z-index: 1;
+  border: none;
+  color: #fff;
+  margin-left: 0px;
+  margin-right: 20px;
+  transition: background-image 0.5s linear;
+}
+.BookNow:before {
+  border-radius: 10px;
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(290, 87%, 48%),
+    hsl(211, 100%, 50%)
+  );
+  z-index: -1;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+  border: 1px solid #fff
+}
+.BookNow:hover::before {
+  opacity: 1;
+}
 .about .content .co-tit {
   /* color: #af30f3; */
   font-weight: 400;
@@ -2851,7 +2891,9 @@ header.simpl {
   padding-top: 30px;
   margin-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.1); }
-
+.intro-section {
+  margin-bottom: 80px;
+}
 .intro-section .htit {
   font-size: 28px;
   font-weight: 500; }
