@@ -1288,6 +1288,9 @@ body {
 
 /* ====================== [ End Button Style ] ====================== */
 /* ====================== [ Start navbar ] ====================== */
+.navbar img {
+  padding-top: 8px;
+}
 .navbar {
   position: absolute;
   left: 16px;
