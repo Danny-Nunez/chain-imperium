@@ -5070,14 +5070,14 @@ header.simpl {
   border-radius: 10px;
   font-size: 14px;
   background-color: rgba(71, 71, 71, 0);
-  border-color: rgb(131, 0, 154);
+  border: 1px solid rgb(131, 0, 154);
   color: #fff;
   transition: background-color 0.5s ease;
   cursor: pointer;
 }
 .prbutton:hover {
-  background-color: rgba(163, 6, 195, 0.175);
-  border-color: rgb(162, 3, 190);
+  background-color: rgba(164, 6, 195, 0.498);
+  border-color: rgb(224, 35, 241);
 }
 .prbutton:active {
   background-color: rgba(163, 6, 195, 0.175);
