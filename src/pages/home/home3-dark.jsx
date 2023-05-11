@@ -36,7 +36,7 @@ const Homepage3 = () => {
       <IntroWithSlider3 />
       <AboutUs2 skillsTheme="dark" />
       <Services3 />
-      {/* <NumbersWithVideo /> */}
+      <NumbersWithVideo />
       <Works2Slider subBG />
       <Testimonials1 />
       <BlogsThreeColumn1 subBG />
