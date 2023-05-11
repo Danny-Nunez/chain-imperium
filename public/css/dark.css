@@ -16,7 +16,7 @@
 .iframe-container {
   border: none;
   border-radius: 10px;
-  width: 500px;
+  width: 420px;
   height: 500px;
 }
 
@@ -5717,6 +5717,7 @@ header.simpl {
     margin-bottom: 30px; } }
 
 @media screen and (max-width: 480px) {
+  
   .selectionButton {
     font-size: 10px;
     padding-left: 3px;
