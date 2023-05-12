@@ -48,7 +48,7 @@ const Services1 = () => {
           >
             <span className="icon pe-7s-phone"></span>
             <h6>
-            WEB 3.0 &amp; <br />  SOFTWARE & SERVICES
+            WEB 3.0 <br />  SOFTWARE & SERVICES
             </h6>
             <p>Web and mobile design and development focuses on creating visually appealing and user-friendly digital experiences for websites and mobile applications. </p>
           </div>
@@ -58,7 +58,7 @@ const Services1 = () => {
           >
             <span className="icon pe-7s-display1"></span>
             <h6>
-              Chain <br /> Marketing
+              Press Release <br /> & Chain Marketing
             </h6>
             <p>We offer various services such as community management, social media marketing, KOL influencer marketing, email marketing, and growth hacking.</p>
           </div>

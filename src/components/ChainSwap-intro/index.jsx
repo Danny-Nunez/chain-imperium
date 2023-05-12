@@ -35,18 +35,18 @@ const ChainSwapIntro = () => {
             </div>
           </div>
         </div>
-        <div className="dexChart">
+        {/* <div className="dexChart">
       
        <h3>ChainCharts</h3>
        <p>We offer custom charts power by Dextools for your web3 project!</p>
-        <iframe 
+        <iframe className="wrapChart"
           width="100%"
           height="700"
           frameBorder="0"
           scrolling="no"
           src="https://dexscreener.com/ethereum/0x508F74D5080d4aD6D1d91BAe0C1AcB5d9418FD2d?embed=1&theme=dark&info=0"></iframe>
   <div className="barblock">.</div>
-        </div>
+        </div> */}
         
       </div>
       
