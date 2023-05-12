@@ -128,7 +128,7 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">PR Services</a>
                 </Link>
                 <Link href="/chainswap/chainswap-dark">
-                  <a className="dropdown-item">ChainSwap</a>
+                  <a className="dropdown-item">Web3 Tools</a>
                 </Link>
               </div>
             </li>

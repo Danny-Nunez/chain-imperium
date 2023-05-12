@@ -6,6 +6,21 @@
 @import "/css/pe-icon.min.css";
 @import "/css/font-awesome.min.css";
 
+.dexChart {
+  text-align:center;
+  margin-top: 40px;
+}
+.barblock {
+  width: 100%;
+  background-color: #0c0f16;
+  height: 100px;
+  position: absolute;
+  
+  color: #0c0f16;
+  bottom: 20;
+  z-index: 99;
+  margin-top: -40px;
+}
 .iframeheader {
   position: absolute;
   z-index: -2;

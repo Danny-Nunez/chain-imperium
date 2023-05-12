@@ -12,17 +12,17 @@ const ChainSwapHeader = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="cont text-center">
-              <h1>ChainSwap</h1>
+              <h1>Web3 Tools</h1>
               <div className="path">
                 
-                <span>Web3 Tools</span>
+                <span>Essential tools included with every web3 project</span>
                 
               </div>
             </div>
           </div>
         </div>
       </div>
- 
+      <div className="iframeback"></div>
 <div className="iframeheader">
   
 <Spline loading-anim scene="https://prod.spline.design/EDqPXegW7Jh4sa4S/scene.splinecode" />  
