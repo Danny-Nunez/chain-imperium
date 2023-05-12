@@ -5,7 +5,7 @@ const ChainSwapHeader = () => {
   return (
     <header
       className="chainswap-header bg-img valign parallaxie"
-      // style={{ backgroundImage: "url(/img/slid/7.jpg)" }}
+       style={{ backgroundImage: "url(/img/frameback.jpg)" }}
       data-overlay-dark="5"
     >
       <div className="container">
@@ -22,7 +22,7 @@ const ChainSwapHeader = () => {
           </div>
         </div>
       </div>
-      <div className="iframeback"></div>
+      {/* <div className="iframeback"></div> */}
 <div className="iframeheader">
   
 <Spline scene="https://prod.spline.design/EDqPXegW7Jh4sa4S/scene.splinecode" />  
