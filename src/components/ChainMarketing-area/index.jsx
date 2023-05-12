@@ -27,12 +27,12 @@ const ChainMarketingArea = () => {
           <div className="col-lg-6 valign">
             <div className="content">
               <Split>
-                <h4
+                <h3
                   className="wow custom-font words chars splitting"
                   data-splitting
                 >
                   BUILD YOUR BRAND ON THE BLOCKCHAIN
-                </h4>
+                </h3>
               </Split>
 
               <Split>
