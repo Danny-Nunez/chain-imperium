@@ -14,20 +14,22 @@ const BlogsTwoColumnSlider = () => {
 
   const fetchMediumFeed = async () => {
     try {
-      const response = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@Artemisvision');
-      const data = await response.json();
-      setArticles(data.items);
+      const response1 = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@chainimperium');
+      const response2 = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@Artemisvision');
+      const data1 = await response1.json();
+      const data2 = await response2.json();
+      setArticles([...data1.items, ...data2.items]);
     } catch (error) {
-      console.error('Error fetching Medium feed:', error);
+      console.error('Error fetching Medium feeds:', error);
     }
   };
 
   const stripImagesFromDescription = (description) => {
     const parser = new DOMParser();
     const htmlDoc = parser.parseFromString(description, 'text/html');
-    const sentences = htmlDoc.body.textContent.trim().split(/[.!?]/);
-    const firstSentence = sentences[0];
-    return firstSentence;
+    const words = htmlDoc.body.textContent.trim().split(' ');
+    const truncatedText = words.slice(0, 15).join(' ');
+    return truncatedText + '...';
   };
 
   const formatDate = (dateString) => {

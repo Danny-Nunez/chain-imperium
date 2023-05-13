@@ -6,6 +6,12 @@
 @import "/css/pe-icon.min.css";
 @import "/css/font-awesome.min.css";
 
+.thumparallax-down {
+  border-radius: 10px;;
+}
+.simpleParallax {
+  border-radius: 10px;
+}
 .articleDes {
   font-size: 12px;
   margin-top: -15px;
