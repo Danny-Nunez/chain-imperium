@@ -4,6 +4,7 @@ import BlogsTwoColumnSlider from "../../components/Blogs-two-column-slider";
 import CallToAction from "../../components/Call-to-action";
 import Clients1 from "../../components/Clients1";
 import Footer from "../../components/Footer";
+
 import IntroWithSlider1 from "../../components/Intro-with-slider1";
 import Navbar from "../../components/Navbar";
 import Numbers1 from "../../components/Numbers";
@@ -61,6 +62,7 @@ const Homepage1 = () => {
         <Clients1 theme="dark" />
         <BlogsTwoColumnSlider />
         <CallToAction subBG />
+        
         <Footer />
       </div>
     </DarkTheme>

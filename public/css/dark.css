@@ -6,6 +6,11 @@
 @import "/css/pe-icon.min.css";
 @import "/css/font-awesome.min.css";
 
+.articleDes {
+  font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
 .cont {
   text-shadow: #000 0px 0px 5px;
 }
