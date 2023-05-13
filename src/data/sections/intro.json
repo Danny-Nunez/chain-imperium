@@ -6,21 +6,34 @@
       "second": "Development"
     },
     "content": "We create cutting-edge blockchain solutions for Web3 and bridge traditional software systems.",
+    "url": "/services/blockchain",
     "image": "/img/slid/01.jpg"
   },
   {
     "id": 2,
     "title": {
-      "first": "Growth",
-      "second": "Marketing"
+      "first": "",
+      "second": "Chain-Marketing"
     },
     "content": "We forge influential messages that transform the world.",
+    "url": "/chainmarketing/chainmarketing-dark",
     "image": "/img/slid/03.jpg"
   },
   {
     "id": 3,
-    "title": "Original Solutions",
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
+    "title": {
+      "first": "",
+      "second": "Financial Services"
+    },
+    "content": "Achieve crypto success with Chain Imperium, your trusted partner for growth and prosperity in the blockchain realm!",
+    "url": "/services/financial",
+    "image": "/img/slid/9.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Web3  Solutions",
+    "content": "Unlock the power of blockchain software and elevate your business to new heights.",
+    "url": "/services/web3",
     "image": "/img/slid/02.jpg"
   }
 ]

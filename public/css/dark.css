@@ -4413,21 +4413,24 @@ header.simpl {
 
 .block-sec .testim-box {
   position: relative;
-  background: linear-gradient(#a72cff, #2c64ff);
+  background: linear-gradient(#000000, #7d00f2);
   padding: 80px 40px;
-  margin-bottom: -120px; }
+  margin-bottom: -120px;
+  border-radius: 10px; 
+  border: 1px solid #3f2f61;
+}
   .block-sec .testim-box .head-box h6 {
-    color: #0c0f16;
+    color: #ffffff;
     font-size: 12px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-bottom: 10px; }
   .block-sec .testim-box .head-box h4 {
-    color: #0c0f16;
+    color: #ffffff;
     margin-bottom: 40px; }
   .block-sec .testim-box .item p {
-    color: #333;
+    color: rgb(255, 255, 255);
     font-size: 17px;
     margin-bottom: 30px;
     padding-bottom: 30px;
@@ -4445,13 +4448,13 @@ header.simpl {
     vertical-align: middle;
     padding-left: 15px; }
     .block-sec .testim-box .item .info .cont .author-name {
-      color: #0c0f16;
+      color: #ffffff;
       font-size: 16px;
       margin-bottom: 5px;
       letter-spacing: 2px;
       text-transform: uppercase; }
     .block-sec .testim-box .item .info .cont .author-details {
-      color: #0c0f16;
+      color: #ffffff;
       font-size: 13px;
       font-weight: 300;
       text-transform: uppercase; }
@@ -4461,7 +4464,7 @@ header.simpl {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    border: 1px solid #0c0f16; }
+    border: 1px solid #ffffff; }
     .block-sec .testim-box .slick-dots li.slick-active {
       background: #0c0f16; }
     .block-sec .testim-box .slick-dots li button {
@@ -4693,6 +4696,7 @@ header.simpl {
 .blog-pg.single .post .main-img .simpleParallax {
   height: 70vh;
   max-height: 600px; }
+
 
 .blog-pg.single .post .main-img img {
   width: 100%;
