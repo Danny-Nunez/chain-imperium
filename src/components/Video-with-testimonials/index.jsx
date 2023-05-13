@@ -37,7 +37,7 @@ const VideoWithTestimonials = () => {
                       channel="vimeo"
                       autoplay
                       isOpen={isOpen}
-                      videoId="127203262"
+                      videoId="823473049"
                       onClose={() => setOpen(false)}
                     />
                   )}
@@ -47,7 +47,7 @@ const VideoWithTestimonials = () => {
                       e.preventDefault();
                       setOpen(true);
                     }}
-                    href="https://vimeo.com/127203262"
+                    href="https://vimeo.com/823473049"
                   >
                     <div className="vid-butn">
                       <span className="icon">
