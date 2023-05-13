@@ -12,8 +12,8 @@
   {
     "id": 2,
     "title": {
-      "first": "",
-      "second": "Chain-Marketing"
+      "first": "Chain",
+      "second": "Marketing"
     },
     "content": "We forge influential messages that transform the world.",
     "url": "/chainmarketing/chainmarketing-dark",
@@ -22,8 +22,8 @@
   {
     "id": 3,
     "title": {
-      "first": "",
-      "second": "Financial Services"
+      "first": "Financial",
+      "second": "Services"
     },
     "content": "Achieve crypto success with Chain Imperium, your trusted partner for growth and prosperity in the blockchain realm!",
     "url": "/services/financial",
