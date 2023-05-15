@@ -3,6 +3,7 @@ import Head from "next/head";
 import Script from "next/script";
 import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/Scroll-to-top";
+import FacebookChat from "../components/FacebookChat";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/globals.css";
 
@@ -17,6 +18,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Cursor />
       <LoadingScreen />
+      <FacebookChat />
       <ScrollToTop />
       <Component {...pageProps} />
 

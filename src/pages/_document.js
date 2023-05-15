@@ -44,9 +44,17 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
+           <script
+            async
+            defer
+            crossOrigin="anonymous"
+            src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=607778234653412&autoLogAppEvents=1"
+            nonce="324523454325435"
+          ></script>
         </Head>
 
         <body>
+        
           <Main />
           <NextScript />
         </body>
