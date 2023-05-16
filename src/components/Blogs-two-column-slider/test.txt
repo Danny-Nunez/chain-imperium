@@ -1,0 +1,34 @@
+{articles.length > 0 ? (
+    <div>
+      {articles.map((article) => (
+        <div key={article.guid}>
+          
+         
+        </div>
+      ))}
+    </div>
+  ) : (
+    <p>Loading...</p>
+  )}
+
+
+  <div className="bimg">
+  <div className="img bg-img" style={{ backgroundImage: `url(${article.thumbnail})` }}>
+  </div>
+  </div>
+
+  <div className="cont valign">
+  <div className="full-width">
+
+  <div className="info custom-font">
+  <a className="date"><span>{article.pubDate}</span></a>
+  <h6 className="custom-font">
+  <a href={article.link} target="_blank" rel="noopener noreferrer">
+    {article.title}
+  </a></h6>
+  </div>
+  </div>
+
+
+  </div>
+  <p dangerouslySetInnerHTML={{ __html: stripImagesFromDescription(article.description) }}></p>
