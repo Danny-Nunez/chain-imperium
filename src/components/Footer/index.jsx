@@ -137,9 +137,9 @@ const Footer = ({ noSubBG }) => {
           </div>
         </div>
         <div className="copyrights text-center">
-          {/* <p>
+          <p>
             <img className="awardSeal" src="/img/awardseal2022.png" alt="" />
-          </p> */}
+          </p>
           <p>
             © 2023, Chain Imperium.
           </p>
