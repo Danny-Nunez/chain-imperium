@@ -83,7 +83,7 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                    Impressed with their services, I have already recommended to several friends who were in need of similar assistance. I have no hesitation in endorsing their services to anyone seeking top-notch mobile app services. If you're looking for a reliable partner who can bring your fashion app idea to life, Chain Imperium is the way to go! Highly recommended!
+                    Impressed with their services, I have already recommended to several friends who were in need of similar assistance. I have no hesitation in endorsing their services to anyone seeking top-notch mobile app services. If your looking for a reliable partner who can bring your fashion app idea to life, Chain Imperium is the way to go! Highly recommended!
                     </p>
                     <div className="info">
                       <div className="img">
