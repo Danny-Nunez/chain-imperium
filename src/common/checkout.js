@@ -15,8 +15,8 @@ export async function checkout({lineItems}){
 	await stripe.redirectToCheckout({
 		mode: 'payment',
 		lineItems,
-		successUrl: 'https://chain-imperium.vercel.app/products/products-dark/' + '?status=success',
-		cancelUrl: 'https://chain-imperium.vercel.app/products/products-dark/'
+		successUrl: 'https://chainimperium.com/products/products-dark/' + '?status=success',
+		cancelUrl: 'https://chainimperium.com/products/products-dark/'
 	})
 
 }
