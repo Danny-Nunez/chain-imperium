@@ -1,25 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  outline: none;
-  list-style: none; }
+
 
 .NoPageWrap {
-  background-color: #0d0f15;
+ 
   color: #fff;
   text-align: center;
   justify-content: center;
-  padding-top: 0px;
+  padding-top: 80px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 500;
   flex-wrap: wrap;
-}
-.linkbutt {
-  color: #fff;
-  cursor: pointer;
 }
 
 .NoPageTitle {
@@ -35,13 +25,7 @@
   justify-content: center;
   
 }
-body {
-  color: #fff;
-  background: #0d0f15;
-  line-height: 1.5;
-  font-weight: 400;
-  overflow-x: hidden !important;
-  font-family: 'Poppins', sans-serif; }
+
 
 .progress-wrap .progress-circle {
   display: none;
