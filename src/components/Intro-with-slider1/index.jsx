@@ -139,17 +139,17 @@ const IntroWithSlider1 = ({ sliderRef }) => {
         ></div>
 
         <div className="social-icon">
-          <a href="#0">
+        <a href='https://www.facebook.com/chainimperium' target={"_blank"} rel={"noreferrer"}>
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#0">
+          <a href='https://twitter.com/chainimperium' target={"_blank"} rel={"noreferrer"}>
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="#0">
-            <i className="fab fa-behance"></i>
+          <a href='https://www.instagram.com/chainimperium/' target={"_blank"} rel={"noreferrer"}>
+            <i className="fab fa-instagram"></i>
           </a>
-          <a href="#0">
-            <i className="fab fa-pinterest-p"></i>
+          <a href='https://medium.com/@chainimperium' target={"_blank"} rel={"noreferrer"}>
+            <i className="fab fa-medium"></i>
           </a>
         </div>
       </div>

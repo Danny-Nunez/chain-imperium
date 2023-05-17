@@ -69,17 +69,17 @@ const Footer = ({ noSubBG }) => {
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
-                  <a href="#0" className="icon">
+                  <a href='https://www.facebook.com/chainimperium' target={"_blank"} rel={"noreferrer"} className="icon">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  <a href='https://twitter.com/chainimperium' target={"_blank"} rel={"noreferrer"} className="icon">
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
+                  <a href='https://www.instagram.com/chainimperium/' target={"_blank"} rel={"noreferrer"} className="icon">
+                    <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                  <a href='https://medium.com/@chainimperium' target={"_blank"} rel={"noreferrer"} className="icon">
+                    <i className="fab fa-medium"></i>
                   </a>
                 </div>
               </div>
