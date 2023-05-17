@@ -5,6 +5,7 @@ import Lottie from "react-lottie";
 import animationData from "../../public/img/404.json"
 import Navbar from "../components/Navbar";
 import DarkTheme from '../layouts/Dark'
+import Footer from "../components/Footer";
 
 const defaultOptions = {
   loop: true,
@@ -25,7 +26,7 @@ export default function Custom404() {
       </Head>
       <Navbar />
     <div className="NoPageWrap"><div className="lottieWrap"><Lottie options={defaultOptions} height={450}
-    width={700}/></div><div className="NoPageTitle">Oops page not found! </div></div>
+    width={700}/></div><div className="NoPageTitle"><h5>oops page not found!</h5> </div></div>
 
 <Script
         strategy="beforeInteractive"
@@ -49,6 +50,7 @@ export default function Custom404() {
         id="initWow" 
         src="/js/initWow.js"
       ></Script>
+      <Footer />
       </DarkTheme>
     </>
     );
