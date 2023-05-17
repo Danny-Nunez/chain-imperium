@@ -49,7 +49,7 @@ const Products = () => {
     checkout({
       lineItems: [
         {
-          price: "price_1N0ADSDG6gDcSJ4xYuqJRUn8",
+          price: "price_1N8r2BHUeSf0LTOupIyy5EK1",
           quantity: 1
         }
       ]
@@ -64,7 +64,7 @@ const Products = () => {
     checkout({
       lineItems: [
         {
-          price: "price_1N0aNKDG6gDcSJ4xF9RIqlMb",
+          price: "price_1N8rHkHUeSf0LTOuO50ybyHl",
           quantity: 1
         }
       ]
@@ -79,7 +79,7 @@ const Products = () => {
     checkout({
       lineItems: [
         {
-          price: "price_1N0aQrDG6gDcSJ4xDDoTsME7",
+          price: "price_1N8r2BHUeSf0LTOupIyy5EK1",
           quantity: 1
         }
       ]
@@ -192,9 +192,9 @@ const Products = () => {
             {" "}Featured on Yahoo! Finance</li>
             <li className="prlistitem">
             <span className={`pe-7s-check`}></span>
-            {" "}Published on yahoofinance.com</li>
+            {" "}Published on YahooFinance.com</li>
           </ul>
-          <p><h6>Price $650.00</h6></p>
+          <p><h6>Price $500.00</h6></p>
           
           <button className="prbutton" onClick={handleYahooBuyNowClick}>
         {loading ? 'Loading...' : 'Buy now'}
@@ -229,9 +229,9 @@ const Products = () => {
             {" "}Featured on Business Insider</li>
             <li className="prlistitem">
             <span className={`pe-7s-check`}></span>
-            {" "}Published on businessinsider.com</li>
+            {" "}Published on BusinessInsider.com</li>
           </ul>
-          <p><h6>Price $650.00</h6></p>
+          <p><h6>Price $500.00</h6></p>
             {/* <button className="prbutton" onClick={(() => {
               checkout({
                 lineItems: [
@@ -264,9 +264,9 @@ const Products = () => {
             {" "}Featured on Market Watch</li>
             <li className="prlistitem">
             <span className={`pe-7s-check`}></span>
-            {" "}Published on marketwatch.com</li>
+            {" "}Published on MarketWatch.com</li>
           </ul>
-          <p><h6>Price $650.00</h6></p>
+          <p><h6>Price $500.00</h6></p>
             {/* <button className="prbutton" onClick={(() => {
               checkout({
                 lineItems: [

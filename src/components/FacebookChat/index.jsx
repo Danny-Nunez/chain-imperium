@@ -14,7 +14,7 @@ const FacebookChat = () => {
 <div
   className="fb-customerchat"
   attribution="setup_tool"
-  page_id="115423904873248"
+  page_id="103208382784818"
 ></div>
 
 
