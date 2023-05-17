@@ -83,7 +83,7 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                    I am absolutely thrilled with my new website! The team at Chain Imperium did an outstanding job of bringing my vision to life. From start to finish, they were professional, responsive, and attentive to every detail.
+                    Impressed with their services, I have already recommended to several friends who were in need of similar assistance. I have no hesitation in endorsing their services to anyone seeking top-notch mobile app services. If you're looking for a reliable partner who can bring your fashion app idea to life, Chain Imperium is the way to go! Highly recommended!
                     </p>
                     <div className="info">
                       <div className="img">
@@ -94,10 +94,10 @@ const VideoWithTestimonials = () => {
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Alex Regelman
+                          Jonathan Chu 
                           </h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                          CEO, Candy
                           </span>
                         </div>
                       </div>
@@ -105,9 +105,7 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    Thank you Dean, for providing us with an amazing 4D metaverse experience for Chef Morimoto. We are eagerly looking forward to collaborating with you on our next web3 restaurant project.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -118,10 +116,10 @@ const VideoWithTestimonials = () => {
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Alex Regelman
+                            Shik Ahn
                           </h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Vice President, MM Group
                           </span>
                         </div>
                       </div>
@@ -129,9 +127,7 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    Thank you all for creating an awesome NFT collection and providing valuable guidance regarding my upcoming NFT music album. Your expertise and support have been invaluable, and I am grateful for your contributions.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -142,10 +138,10 @@ const VideoWithTestimonials = () => {
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Alex Regelman
+                            Dionni 6x
                           </h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Reggaeton, Artist
                           </span>
                         </div>
                       </div>
