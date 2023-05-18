@@ -49,7 +49,7 @@ const Products = () => {
     checkout({
       lineItems: [
         {
-          price: "price_1N9BoCDG6gDcSJ4xP4EhJ0PT",
+          price: "prod_Nv1rRs45LaeJ4v",
           quantity: 1
         }
       ]
@@ -64,7 +64,7 @@ const Products = () => {
     checkout({
       lineItems: [
         {
-          price: "price_1N9BmWDG6gDcSJ4xvpyd2z1E",
+          price: "prod_Nv1rRs45LaeJ4v",
           quantity: 1
         }
       ]
@@ -79,7 +79,7 @@ const Products = () => {
     checkout({
       lineItems: [
         {
-          price: "price_1N9BNFDG6gDcSJ4xGUHOlPdP",
+          price: "prod_Nv1rRs45LaeJ4v",
           quantity: 1
         }
       ]
