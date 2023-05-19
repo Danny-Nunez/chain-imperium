@@ -26,7 +26,9 @@ export default function Custom404() {
       </Head>
       <Navbar />
     <div className="NoPageWrap"><div className="lottieWrap"><Lottie options={defaultOptions}/></div><div className="NoPageTitle"><h5>oops page not found!</h5> </div></div>
-
+    <div className="NoPageFooter">
+    <Footer /></div>
+      </DarkTheme>
 <Script
         strategy="beforeInteractive"
         id="wow"
@@ -49,8 +51,7 @@ export default function Custom404() {
         id="initWow" 
         src="/js/initWow.js"
       ></Script>
-      <Footer />
-      </DarkTheme>
+      
     </>
     );
   };

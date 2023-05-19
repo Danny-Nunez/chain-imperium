@@ -1,4 +1,6 @@
-
+.NoPageFooter {
+  background-color: #151921;
+}
 
 .NoPageWrap {
   color: #fff;
@@ -28,7 +30,6 @@
   width: 450px;
   margin: auto;
   justify-content: center;
-  
 }
 
 
