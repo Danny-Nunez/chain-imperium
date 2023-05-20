@@ -69,9 +69,13 @@ const BlogsTwoColumnSlider = () => {
   {selectedArticle && (
     <div>
       <div className="articleThumb">
+      <span className="SelectedDate">Published {formatDate(selectedArticle.pubDate)}</span>
           <img alt="" src={selectedArticle.thumbnail} />
+          
           </div>
+         
       <h4 className="custom-font popupA">{selectedArticle.title}</h4>
+      
       <p className="articleDes" dangerouslySetInnerHTML={{ __html: stripImages2FromDescription(selectedArticle.description) }}>
       
       </p>

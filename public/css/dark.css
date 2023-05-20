@@ -6,6 +6,15 @@
 @import "/css/pe-icon.min.css";
 @import "/css/font-awesome.min.css";
 
+.SelectedDate {
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  justify-content: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
 .popupA {
   color: #fff;
   text-align: center;
