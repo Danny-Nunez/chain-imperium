@@ -4,9 +4,13 @@ import Link from "next/link";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Modal from "../Modal"
 
 const BlogsTwoColumnSlider = () => {
   const [articles, setArticles] = useState([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedArticle, setSelectedArticle] = useState(null);
+
 
   useEffect(() => {
     fetchMediumFeed();
@@ -31,15 +35,51 @@ const BlogsTwoColumnSlider = () => {
     const truncatedText = words.slice(0, 15).join(' ');
     return truncatedText + '...';
   };
+  const stripImages2FromDescription = (description) => {
+    const parser = new DOMParser();
+    const htmlDoc = parser.parseFromString(description, 'text/html');
+    
+    // Remove all <img> elements from the HTML content
+    const images = htmlDoc.body.querySelectorAll('img');
+    images.forEach((image) => image.remove());
+  
+    // Get the HTML content of the body without images
+    const bodyContent = htmlDoc.body.innerHTML;
+  
+    return bodyContent;
+  };
+  
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
     return date.toLocaleDateString();
   };
 
+  const openModal = (article) => {
+    setSelectedArticle(article);
+    setIsModalOpen(true);
+  };
+  
+
   return (
     <section className="blog-curs section-padding sub-bg">
       <div className="container">
+
+      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
+  {selectedArticle && (
+    <div>
+      <div className="articleThumb">
+          <img alt="" src={selectedArticle.thumbnail} />
+          </div>
+      <h4 className="custom-font popupA">{selectedArticle.title}</h4>
+      <p className="articleDes" dangerouslySetInnerHTML={{ __html: stripImages2FromDescription(selectedArticle.description) }}>
+      
+      </p>
+    </div>
+  )}
+</Modal>
+
+
         <div className="sec-head custom-font text-center">
           <h6 className="wow fadeIn" data-wow-delay=".5s">
             Latest News
@@ -99,22 +139,20 @@ const BlogsTwoColumnSlider = () => {
                             <a href="#0" className="author">
                               <span>by / Admin</span>
                             </a>
-                            <Link href={article.link}>
-                              <a target="_blank" rel="noopener noreferrer" className="date">
+                            <Link href="#">
+                              <a className="date">
                                 <span>{formatDate(article.pubDate)}</span>
                               </a>
                             </Link>
                           </div>
                           <h6 className="custom-font">
-                            <Link href="/blog-details/blog-details-dark">
+                            <Link href="#">
                               {article.title}
                             </Link>
                           </h6>
                           <div className="articleDes" dangerouslySetInnerHTML={{ __html: stripImagesFromDescription(article.description) }}></div>
                           <div className="btn-more custom-font">
-                            <Link href={article.link}>
-                              <a target="_blank" rel="noopener noreferrer" className="simple-btn">Read More</a>
-                            </Link>
+                              <a onClick={() => openModal(article)} className="simple-btn">Read More</a>
                           </div>
                         </div>
                       </div>
