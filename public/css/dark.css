@@ -6,6 +6,91 @@
 @import "/css/pe-icon.min.css";
 @import "/css/font-awesome.min.css";
 
+.scrollContainer {
+  margin: auto;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  z-index: 999999999999999999999999999;
+  margin-top: -150px;
+  margin-bottom: 70px;
+}
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
+
 .SelectedDate {
   color: #fff;
   font-size: 10px;
@@ -34,7 +119,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Black background with 80% opacity */
+  background-color: rgba(0, 0, 0, 0.891); /* Black background with 80% opacity */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +152,16 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  transition: 0.3s;
+  opacity: 0.6;
   z-index: 100011111111111; /* Adjust the z-index value to be higher than the overlay and content */
+}
+.modal-close:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  opacity: 1
+  
 }
 
 
@@ -5832,6 +5926,14 @@ header.simpl {
     margin-bottom: 30px; } }
 
 @media screen and (max-width: 480px) {
+  .chevron {
+    width: 16px;
+    height: 4px;
+  }
+  .scrollContainer {
+    margin-top: -140px;
+    margin-bottom: 50px;
+  }
   .NoPageFooter {
     background-color: #151921;
     width: 120%;

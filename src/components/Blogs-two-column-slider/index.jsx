@@ -71,7 +71,13 @@ const BlogsTwoColumnSlider = () => {
       <div className="articleThumb">
       <span className="SelectedDate">Published {formatDate(selectedArticle.pubDate)}</span>
           <img alt="" src={selectedArticle.thumbnail} />
-          
+          <div className="scrollContainer">
+          <div className="chevron"></div>
+          <div className="chevron"></div>
+          <div className="chevron"></div>
+          <span className="text">Scroll down</span>
+          </div>
+  
           </div>
          
       <h4 className="custom-font popupA">{selectedArticle.title}</h4>
