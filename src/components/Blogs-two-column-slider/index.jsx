@@ -75,7 +75,7 @@ const BlogsTwoColumnSlider = () => {
           <div className="chevron"></div>
           <div className="chevron"></div>
           <div className="chevron"></div>
-          <span className="text">Scroll down</span>
+          <span className="textMedium">Scroll down</span>
           </div>
   
           </div>
