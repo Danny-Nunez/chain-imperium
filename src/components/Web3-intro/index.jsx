@@ -15,7 +15,7 @@ const Web3Intro = () => {
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                Chain Imperium offers a range of blockchain development services and solutions to help businesses scale. These include developing mobile, web, and hardware wallets, creating white label crypto exchanges for both centralized and decentralized platforms, designing and building decentralized applications, and developing customized smart contract architectures for various industries. They also provide software development services, Metaverse development, UI/UX/3D design, e-commerce development, and NFT marketplace creation. Additionally, they offer ongoing support and maintenance to ensure the proper functioning of third-party upgrades and app releases. Interested parties can contact us to schedule an initial consultation.
+                Chain Imperium offers a range of blockchain development services and solutions to help businesses scale. These include developing mobile, web, and hardware wallets, creating white label crypto exchanges for both centralized and decentralized platforms, designing and building decentralized applications, and developing customized smart contract architectures for various industries. We also provide software development services, Metaverse development, UI/UX/3D design, e-commerce development, and NFT marketplace creation. Additionally, they offer ongoing support and maintenance to ensure the proper functioning of third-party upgrades and app releases. Interested parties can contact us to schedule an initial consultation.
                 </p>
               </Split>
             </div>
