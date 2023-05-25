@@ -13,8 +13,17 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Chain Imperium</title>
+        <title>Crafting Blockchain and Web3 Solutions | Chain Imperium</title>
+        <meta name="description" content="Chain Imperium offers blockchain development services, smart contract architectures, NFT marketplace creation, Metaverse development, and more. Contact us for a consultation." />
         <link rel="icon" href="/img/favicon.ico" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H35NWP06V7"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-H35NWP06V7');
+        </script>
       </Head>
       <Cursor />
       <LoadingScreen />
