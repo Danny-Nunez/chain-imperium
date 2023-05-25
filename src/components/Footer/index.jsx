@@ -4,6 +4,7 @@ import axios from "axios";
 import React, { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import  InstagramFeed from '../InstagramFeed';
 
 
 const Footer = ({ noSubBG }) => {
@@ -113,11 +114,13 @@ const Footer = ({ noSubBG }) => {
     </div>
 
             </div>
+            
             <div className="insta">
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
               <div className="insta-gallary">
+              <InstagramFeed />
 
-           <a href='https://www.instagram.com/p/CrySsdYscCa/' target={"_blank"} rel={"noreferrer"}>
+           {/* <a href='https://www.instagram.com/p/CrySsdYscCa/' target={"_blank"} rel={"noreferrer"}>
            <img src="/img/insta/1.jpg" alt="" />
               </a>
               <a href='https://www.instagram.com/p/CryK592spFp/' target={"_blank"} rel={"noreferrer"}>
@@ -125,7 +128,7 @@ const Footer = ({ noSubBG }) => {
               </a>
               <a href='https://www.instagram.com/p/CryCTK9s2Oz/' target={"_blank"} rel={"noreferrer"}>
            <img src="/img/insta/3.jpg" alt="" />
-              </a>
+              </a> */}
                 
                 
 
