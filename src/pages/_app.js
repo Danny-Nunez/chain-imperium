@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="Chain Imperium offers blockchain development services, smart contract architectures, NFT marketplace creation, Metaverse development, and more. Contact us for a consultation."
         />
-        <link rel="icon" href="/img/favicon.ico" />
+        <link rel="icon" href="https://www.chainimperium.com/img/favicon.ico" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-H35NWP06V7"
