@@ -51,10 +51,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                 <ul className="main-menu">
                   <li>
                     <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">01.</span>Home
-                        <i className="fas fa-angle-right"></i>
-                      </span>
+                    <Link href="/home/home1-dark">
+                              <a className="sub-link">
+                                <span className="nm">01.</span>Home
+                              </a>
+                            </Link>
                     </div>
                     <div className="sub-menu">
                       <ul>
@@ -65,67 +66,16 @@ const NavbarFullMenu = ({ theme, lr }) => {
                             </span>
                           </div>
                         </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home1-dark">
-                              <a className="sub-link">
-                                <span className="nm">01.</span>Main Home
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home2-dark">
-                              <a className="sub-link">
-                                <span className="nm">02.</span>Creative Studio
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home3-dark">
-                              <a className="sub-link">
-                                <span className="nm">03.</span> Business Startup
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home4-dark">
-                              <a className="sub-link">
-                                <span className="nm">04.</span>One Page
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home5-dark">
-                              <a className="sub-link">
-                                <span className="nm">05.</span>Freelancer
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
+                       
+                        
                       </ul>
                     </div>
                   </li>
-                  <li>
-                    <div className="o-hidden">
-                      <Link href="/about/about-dark">
-                        <a className="link">
-                          <span className="nm">02.</span>About Us
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
+
                   <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
-                        <span className="nm">03.</span>Portfolio
+                        <span className="nm">02.</span>Services
                         <i className="fas fa-angle-right"></i>
                       </span>
                     </div>
@@ -140,36 +90,28 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/works/works-dark">
+                            <Link href="/services/blockchain">
                               <a className="sub-link">
-                                <span className="nm">01.</span>Mouse Info
+                                <span className="nm">01.</span>Blockchain Solutions
+                              </a>
+                            </Link>
+                          </div>
+                        </li>
+                       
+                        <li>
+                          <div className="o-hidden">
+                            <Link href="/services/web3">
+                              <a className="sub-link">
+                                <span className="nm">03.</span>Web3 Software & Services
                               </a>
                             </Link>
                           </div>
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/works2/works2-dark">
+                            <Link href="/services/financial">
                               <a className="sub-link">
-                                <span className="nm">02.</span>Masonry 3 Columns
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works3/works3-dark">
-                              <a className="sub-link">
-                                <span className="nm">03.</span>Masonry 2 Columns
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works4/works4-dark">
-                              <a className="sub-link">
-                                <span className="nm">04.</span>Pinterest List
+                                <span className="nm">04.</span>Financial Services
                               </a>
                             </Link>
                           </div>
@@ -178,10 +120,22 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     </div>
                   </li>
 
+
+
+                  <li>
+                    <div className="o-hidden">
+                      <Link href="/about/about-dark">
+                        <a className="link">
+                          <span className="nm">03.</span>About Us
+                        </a>
+                      </Link>
+                    </div>
+                  </li>
+                  
                   <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
-                        <span className="nm">04.</span>Showcases
+                        <span className="nm">04.</span>Products
                         <i className="fas fa-angle-right"></i>
                       </span>
                     </div>
@@ -196,40 +150,24 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase/showcase-dark">
+                            <Link href="/products/products-dark">
                               <a className="sub-link">
-                                <span className="nm">01.</span>Full Screen
+                                <span className="nm">01.</span>PR Services
                               </a>
                             </Link>
                           </div>
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/showcase2/showcase2-dark">
+                            <Link href="/chainswap/chainswap-dark">
                               <a className="sub-link">
-                                <span className="nm">02.</span>Creative Carousel
+                                <span className="nm">02.</span>Web3 Tools
                               </a>
                             </Link>
                           </div>
                         </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase3/showcase3-dark">
-                              <a className="sub-link">
-                                <span className="nm">03.</span>Radius Carousel
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase4/showcase4-dark">
-                              <a className="sub-link">
-                                <span className="nm">04.</span>Columns Carousel
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
+                        
+                        
                       </ul>
                     </div>
                   </li>
@@ -250,18 +188,20 @@ const NavbarFullMenu = ({ theme, lr }) => {
               <div className="cont-info">
                 <div className="item">
                   <h6>Phone :</h6>
-                  <p>+03 762-2367-723</p>
+                  <p>(571) 4 9 C H A I N</p>
                 </div>
                 <div className="item">
                   <h6>Address :</h6>
+                  
                   <p>
-                    541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+                    
+                  8609 Westwood Center Dr Suite 110, Tysons Corner, VA 22182
                   </p>
                 </div>
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">Avo_website@gmail.com</a>
+                    <a href="#0">admin@chainimperium.com</a>
                   </p>
                 </div>
               </div>
