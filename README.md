@@ -12,3 +12,6 @@ We are Chain Imperium. Our team specializes in crafting exceptional digital expe
 # Medium RSS Feed Integration
 <img width="1293" alt="Screen Shot 2023-05-30 at 4 17 05 PM" src="https://github.com/Danny-Nunez/chain-imperium/assets/114783191/48331ce4-c206-4a7a-8949-87b5286baaec">
 <img width="1252" alt="Screen Shot 2023-05-30 at 4 17 20 PM" src="https://github.com/Danny-Nunez/chain-imperium/assets/114783191/ba94b35e-7e01-48dc-8bad-bb48a421871e">
+
+# Web3 Uniswap Integration
+<img width="1296" alt="Screen Shot 2023-05-30 at 4 40 29 PM" src="https://github.com/Danny-Nunez/chain-imperium/assets/114783191/e18ed6a3-d92a-4f3e-a568-e69a053c2dd1">
