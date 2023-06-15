@@ -78,7 +78,7 @@ const NumbersWithVideo = ({ theme = "dark" }) => {
             channel="vimeo"
             autoplay
             isOpen={isOpen}
-            videoId="823473049"
+            videoId="836657408"
             onClose={() => setOpen(false)}
           />
         )}
@@ -105,7 +105,7 @@ const NumbersWithVideo = ({ theme = "dark" }) => {
                           setOpen(true);
                         }}
                         className="vid"
-                        href="https://vimeo.com/823473049"
+                        href="https://vimeo.com/836657408"
                       >
                         <div className="vid-butn">
                           <span className="icon">
